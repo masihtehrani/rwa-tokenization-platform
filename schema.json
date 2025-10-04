@@ -1,0 +1,160 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "RWA Labs",
+  "alternateName": "Real World Assets Labs",
+  "description": "پلتفرم تخصصی توکنایز دارایی‌های واقعی با استفاده از فناوری بلاکچین و قراردادهای هوشمند",
+  "url": "https://rwatoken.ir",
+  "logo": "https://rwatoken.ir/images/rwa-labs-logo.png",
+  "image": "https://rwatoken.ir/images/rwa-tokenization-og.jpg",
+  "foundingDate": "2023",
+  "founder": {
+    "@type": "Person",
+    "name": "MiroTeam"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "خیابان ولیعصر",
+    "addressLocality": "تهران",
+    "addressCountry": "IR"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+98-21-1234-5678",
+      "contactType": "customer service",
+      "availableLanguage": ["Persian", "English"],
+      "areaServed": "IR"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "info@rwatoken.ir",
+      "contactType": "customer service",
+      "availableLanguage": ["Persian", "English"]
+    }
+  ],
+  "sameAs": [
+    "https://t.me/rwatoken_support",
+    "https://wa.me/989123456789",
+    "https://miroteam.ir"
+  ],
+  "service": [
+    {
+      "@type": "Service",
+      "name": "توکنایز املاک و مستغلات",
+      "description": "تبدیل ساختمان‌های مسکونی، تجاری و پروژه‌های عمرانی به توکن دیجیتال",
+      "provider": {
+        "@type": "Organization",
+        "name": "RWA Labs"
+      },
+      "areaServed": "IR",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://rwatoken.ir/services/real-estate"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "توکنایز دارایی‌های معدنی و فلزات",
+      "description": "تبدیل طلا، نقره، مس، آهن و سنگ‌های قیمتی به توکن دیجیتال",
+      "provider": {
+        "@type": "Organization",
+        "name": "RWA Labs"
+      },
+      "areaServed": "IR",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://rwatoken.ir/services/mining-metals"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "توکنایز محصولات کشاورزی و دامداری",
+      "description": "تبدیل زعفران، پسته، برنج، گوسفند و سایر محصولات کشاورزی به توکن دیجیتال",
+      "provider": {
+        "@type": "Organization",
+        "name": "RWA Labs"
+      },
+      "areaServed": "IR",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://rwatoken.ir/services/agriculture"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "توکنایز خودرو و ماشین‌آلات",
+      "description": "تبدیل خودروهای لوکس، ماشین‌آلات سنگین و تجهیزات صنعتی به توکن دیجیتال",
+      "provider": {
+        "@type": "Organization",
+        "name": "RWA Labs"
+      },
+      "areaServed": "IR",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://rwatoken.ir/services/vehicles"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "صکوک دیجیتال و اوراق بهادار",
+      "description": "ایجاد اوراق بهادار اسلامی، صکوک درآمدزا و اوراق مشارکت دیجیتال",
+      "provider": {
+        "@type": "Organization",
+        "name": "RWA Labs"
+      },
+      "areaServed": "IR",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://rwatoken.ir/services/digital-sukuk"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "کیف‌پول اختصاصی RWA",
+      "description": "کیف‌پول بلاکچینی اختصاصی برای ذخیره و مدیریت توکن‌های دارایی واقعی",
+      "provider": {
+        "@type": "Organization",
+        "name": "RWA Labs"
+      },
+      "areaServed": "IR",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://rwatoken.ir/services/rwa-wallet"
+      }
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "خدمات توکنایز دارایی‌های واقعی",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "مشاوره رایگان توکنایز"
+        },
+        "price": "0",
+        "priceCurrency": "IRR"
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "47",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "knowsAbout": [
+    "توکنایز دارایی‌های واقعی",
+    "قراردادهای هوشمند",
+    "بلاکچین",
+    "ERC-20",
+    "ERC-3643",
+    "صکوک دیجیتال",
+    "DeFi",
+    "Solidity"
+  ],
+  "keywords": "توکنایز,دارایی واقعی,RWA,بلاکچین,قرارداد هوشمند,صکوک دیجیتال,توکن املاک,توکن طلا,توکن زعفران"
+}
