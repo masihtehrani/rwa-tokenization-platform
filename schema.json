@@ -4,9 +4,9 @@
   "name": "RWA Labs",
   "alternateName": "Real World Assets Labs",
   "description": "پلتفرم تخصصی توکنایز دارایی‌های واقعی با استفاده از فناوری بلاکچین و قراردادهای هوشمند",
-  "url": "https://rwatoken.ir",
-  "logo": "https://rwatoken.ir/images/rwa-labs-logo.png",
-  "image": "https://rwatoken.ir/images/rwa-tokenization-og.jpg",
+  "url": "https://rwa-assets.ir",
+  "logo": "https://rwa-assets.ir/images/rwa-labs-logo.png",
+  "image": "https://rwa-assets.ir/images/rwa-tokenization-og.jpg",
   "foundingDate": "2023",
   "founder": {
     "@type": "Person",
@@ -28,7 +28,7 @@
     },
     {
       "@type": "ContactPoint",
-      "email": "info@rwatoken.ir",
+      "email": "info@rwa-assets.ir",
       "contactType": "customer service",
       "availableLanguage": ["Persian", "English"]
     }
@@ -50,7 +50,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwatoken.ir/services/real-estate"
+        "serviceUrl": "https://rwa-assets.ir/services/real-estate"
       }
     },
     {
@@ -64,7 +64,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwatoken.ir/services/mining-metals"
+        "serviceUrl": "https://rwa-assets.ir/services/mining-metals"
       }
     },
     {
@@ -78,7 +78,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwatoken.ir/services/agriculture"
+        "serviceUrl": "https://rwa-assets.ir/services/agriculture"
       }
     },
     {
@@ -92,7 +92,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwatoken.ir/services/vehicles"
+        "serviceUrl": "https://rwa-assets.ir/services/vehicles"
       }
     },
     {
@@ -106,7 +106,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwatoken.ir/services/digital-sukuk"
+        "serviceUrl": "https://rwa-assets.ir/services/digital-sukuk"
       }
     },
     {
@@ -120,7 +120,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwatoken.ir/services/rwa-wallet"
+        "serviceUrl": "https://rwa-assets.ir/services/rwa-wallet"
       }
     }
   ],
