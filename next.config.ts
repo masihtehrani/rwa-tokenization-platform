@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
   // Output configuration for GitHub Pages
   output: 'export',
   trailingSlash: true,
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/rwa-tokenization-platform' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/rwa-tokenization-platform' : '',
   
   // Image optimization
   images: {
