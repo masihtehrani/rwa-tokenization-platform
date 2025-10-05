@@ -26,7 +26,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'ایمیل',
-    details: ['info@rwa-assets.ir', 'support@rwa-assets.ir'],
+    details: ['info@rwa-labs.ir', 'support@rwa-labs.ir'],
     description: 'ارسال ایمیل و دریافت پاسخ سریع'
   },
   {

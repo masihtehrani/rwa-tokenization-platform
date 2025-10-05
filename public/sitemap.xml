@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <!-- Homepage -->
   <url>
-    <loc>https://rwa-assets.ir/</loc>
+    <loc>https://rwa-labs.ir/</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -10,42 +10,42 @@
   
   <!-- Main Pages -->
   <url>
-    <loc>https://rwa-assets.ir/services</loc>
+    <loc>https://rwa-labs.ir/services</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/about</loc>
+    <loc>https://rwa-labs.ir/about</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/contact</loc>
+    <loc>https://rwa-labs.ir/contact</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/portfolio</loc>
+    <loc>https://rwa-labs.ir/portfolio</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/technology</loc>
+    <loc>https://rwa-labs.ir/technology</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/blog</loc>
+    <loc>https://rwa-labs.ir/blog</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -53,42 +53,42 @@
   
   <!-- Service Pages -->
   <url>
-    <loc>https://rwa-assets.ir/services/real-estate</loc>
+    <loc>https://rwa-labs.ir/services/real-estate</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/services/mining-metals</loc>
+    <loc>https://rwa-labs.ir/services/mining-metals</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/services/agriculture</loc>
+    <loc>https://rwa-labs.ir/services/agriculture</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/services/vehicles</loc>
+    <loc>https://rwa-labs.ir/services/vehicles</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/services/digital-sukuk</loc>
+    <loc>https://rwa-labs.ir/services/digital-sukuk</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/services/rwa-wallet</loc>
+    <loc>https://rwa-labs.ir/services/rwa-wallet</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -96,70 +96,70 @@
   
   <!-- Blog Articles -->
   <url>
-    <loc>https://rwa-assets.ir/blog/what-is-rwa-tokenization</loc>
+    <loc>https://rwa-labs.ir/blog/what-is-rwa-tokenization</loc>
     <lastmod>2024-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/blog/real-estate-tokenization-guide</loc>
+    <loc>https://rwa-labs.ir/blog/real-estate-tokenization-guide</loc>
     <lastmod>2024-01-12T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/blog/erc-20-vs-erc-3643</loc>
+    <loc>https://rwa-labs.ir/blog/erc-20-vs-erc-3643</loc>
     <lastmod>2024-01-10T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/blog/agricultural-tokenization</loc>
+    <loc>https://rwa-labs.ir/blog/agricultural-tokenization</loc>
     <lastmod>2024-01-08T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/blog/smart-contract-security</loc>
+    <loc>https://rwa-labs.ir/blog/smart-contract-security</loc>
     <lastmod>2024-01-05T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/blog/sukuk-digital-future</loc>
+    <loc>https://rwa-labs.ir/blog/sukuk-digital-future</loc>
     <lastmod>2024-01-03T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/blog/defi-integration-rwa</loc>
+    <loc>https://rwa-labs.ir/blog/defi-integration-rwa</loc>
     <lastmod>2024-01-01T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/blog/legal-framework-rwa</loc>
+    <loc>https://rwa-labs.ir/blog/legal-framework-rwa</loc>
     <lastmod>2023-12-28T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/blog/oracle-pricing-rwa</loc>
+    <loc>https://rwa-labs.ir/blog/oracle-pricing-rwa</loc>
     <lastmod>2023-12-25T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://rwa-assets.ir/blog/rwa-market-trends-2024</loc>
+    <loc>https://rwa-labs.ir/blog/rwa-market-trends-2024</loc>
     <lastmod>2023-12-22T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
