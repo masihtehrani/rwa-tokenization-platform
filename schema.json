@@ -4,9 +4,9 @@
   "name": "RWA Labs",
   "alternateName": "Real World Assets Labs",
   "description": "پلتفرم تخصصی توکنایز دارایی‌های واقعی با استفاده از فناوری بلاکچین و قراردادهای هوشمند",
-  "url": "https://rwa-assets.ir",
-  "logo": "https://rwa-assets.ir/images/rwa-labs-logo.png",
-  "image": "https://rwa-assets.ir/images/rwa-tokenization-og.jpg",
+  "url": "https://rwa-labs.ir",
+  "logo": "https://rwa-labs.ir/images/rwa-labs-logo.png",
+  "image": "https://rwa-labs.ir/images/rwa-tokenization-og.jpg",
   "foundingDate": "2023",
   "founder": {
     "@type": "Person",
@@ -50,7 +50,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwa-assets.ir/services/real-estate"
+        "serviceUrl": "https://rwa-labs.ir/services/real-estate"
       }
     },
     {
@@ -64,7 +64,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwa-assets.ir/services/mining-metals"
+        "serviceUrl": "https://rwa-labs.ir/services/mining-metals"
       }
     },
     {
@@ -78,7 +78,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwa-assets.ir/services/agriculture"
+        "serviceUrl": "https://rwa-labs.ir/services/agriculture"
       }
     },
     {
@@ -92,7 +92,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwa-assets.ir/services/vehicles"
+        "serviceUrl": "https://rwa-labs.ir/services/vehicles"
       }
     },
     {
@@ -106,7 +106,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwa-assets.ir/services/digital-sukuk"
+        "serviceUrl": "https://rwa-labs.ir/services/digital-sukuk"
       }
     },
     {
@@ -120,7 +120,7 @@
       "areaServed": "IR",
       "availableChannel": {
         "@type": "ServiceChannel",
-        "serviceUrl": "https://rwa-assets.ir/services/rwa-wallet"
+        "serviceUrl": "https://rwa-labs.ir/services/rwa-wallet"
       }
     }
   ],
