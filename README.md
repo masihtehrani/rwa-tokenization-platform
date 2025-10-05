@@ -109,7 +109,7 @@
 
 1. **Clone کردن پروژه**
 ```bash
-git clone https://github.com/your-username/rwa-tokenization-platform.git
+git clone https://github.com/masihtehrani/rwa-tokenization-platform.git
 cd rwa-tokenization-platform
 ```
 
@@ -243,11 +243,11 @@ POST /api/price-inquiry
 
 ما از مشارکت شما استقبال می‌کنیم! لطفاً قبل از شروع:
 
-1. [Fork](https://github.com/your-username/rwa-tokenization-platform/fork) کنید
+1. [Fork](https://github.com/masihtehrani/rwa-tokenization-platform/fork) کنید
 2. Branch جدید ایجاد کنید (`git checkout -b feature/amazing-feature`)
 3. تغییرات خود را commit کنید (`git commit -m 'Add amazing feature'`)
 4. Push کنید (`git push origin feature/amazing-feature`)
-5. [Pull Request](https://github.com/your-username/rwa-tokenization-platform/compare) ایجاد کنید
+5. [Pull Request](https://github.com/masihtehrani/rwa-tokenization-platform/compare) ایجاد کنید
 
 ### راهنمای مشارکت
 
@@ -257,10 +257,10 @@ POST /api/price-inquiry
 
 ## 📊 آمار پروژه
 
-![GitHub stars](https://img.shields.io/github/stars/your-username/rwa-tokenization-platform?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/rwa-tokenization-platform?style=social)
-![GitHub issues](https://img.shields.io/github/issues/your-username/rwa-tokenization-platform)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/your-username/rwa-tokenization-platform)
+![GitHub stars](https://img.shields.io/github/stars/masihtehrani/rwa-tokenization-platform?style=social)
+![GitHub forks](https://img.shields.io/github/forks/masihtehrani/rwa-tokenization-platform?style=social)
+![GitHub issues](https://img.shields.io/github/issues/masihtehrani/rwa-tokenization-platform)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/masihtehrani/rwa-tokenization-platform)
 
 ## 📈 Roadmap
 
@@ -292,7 +292,7 @@ POST /api/price-inquiry
 
 اگر باگی پیدا کردید:
 
-1. [Issues](https://github.com/your-username/rwa-tokenization-platform/issues) را بررسی کنید
+1. [Issues](https://github.com/masihtehrani/rwa-tokenization-platform/issues) را بررسی کنید
 2. اگر مشکل شما قبلاً گزارش نشده، Issue جدید ایجاد کنید
 3. برای مسائل امنیتی، [SECURITY.md](SECURITY.md) را مطالعه کنید
 
@@ -325,7 +325,7 @@ POST /api/price-inquiry
 
 *ساخته شده با ❤️ در ایران*
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/your-username/rwa-tokenization-platform)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/masihtehrani/rwa-tokenization-platform)
 [![Website](https://img.shields.io/badge/Website-Live%20Demo-green?style=for-the-badge&logo=vercel)](https://rwatoken.ir)
 [![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge&logo=gitbook)](https://docs.rwatoken.ir)
 
