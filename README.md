@@ -9,12 +9,12 @@
 
 **پلتفرم تخصصی توکنایز دارایی‌های واقعی (RWA) - طراحی و توسعه توسط [MiroTeam](https://miroteam.ir/)**
 
-🌐 **Live Website**: [https://rwatoken.ir](https://rwatoken.ir)
+🌐 **Live Website**: [https://rwa-assets.ir](https://rwa-assets.ir)
 
 [![Deploy to GitHub Pages](https://github.com/masihtehrani/rwa-tokenization-platform/actions/workflows/deploy.yml/badge.svg)](https://github.com/masihtehrani/rwa-tokenization-platform/actions/workflows/deploy.yml)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-rwatoken.ir-green?style=for-the-badge)](https://rwatoken.ir)
-[![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge)](https://docs.rwatoken.ir)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-rwa-assets.ir-green?style=for-the-badge)](https://rwa-assets.ir)
+[![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge)](https://docs.rwa-assets.ir)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 </div>

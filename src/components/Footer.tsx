@@ -26,7 +26,7 @@ const footerLinks = {
   social: [
     { name: 'تلگرام', href: 'https://t.me/rwatoken_support', icon: MessageCircle },
     { name: 'واتس‌اپ', href: 'https://wa.me/989123456789', icon: Send },
-    { name: 'ایمیل', href: 'mailto:info@rwatoken.ir', icon: Mail },
+    { name: 'ایمیل', href: 'mailto:info@rwa-assets.ir', icon: Mail },
   ]
 }
 

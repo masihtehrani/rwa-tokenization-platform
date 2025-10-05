@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fa_IR",
     siteName: "RWA Labs",
-    url: "https://rwatoken.ir",
+    url: "https://rwa-assets.ir",
     images: [
       {
         url: "/images/rwa-tokenization-og.jpg",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://rwatoken.ir",
+    canonical: "https://rwa-assets.ir",
   },
 };
 
@@ -74,8 +74,8 @@ export default function RootLayout({
     "@type": "Organization",
     "name": "RWA Labs",
     "description": "پلتفرم تخصصی توکنایز دارایی‌های واقعی با استفاده از فناوری بلاکچین",
-    "url": "https://rwatoken.ir",
-    "logo": "https://rwatoken.ir/images/rwa-labs-logo.png",
+    "url": "https://rwa-assets.ir",
+    "logo": "https://rwa-assets.ir/images/rwa-labs-logo.png",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+98-21-1234-5678",

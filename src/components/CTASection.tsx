@@ -64,7 +64,7 @@ export default function CTASection() {
             </motion.a>
 
             <motion.a
-              href="mailto:info@rwatoken.ir"
+              href="mailto:info@rwa-assets.ir"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}

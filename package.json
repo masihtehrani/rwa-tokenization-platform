@@ -4,7 +4,7 @@
   "private": true,
   "description": "پلتفرم تخصصی توکنایز دارایی‌های واقعی (RWA) - طراحی و توسعه توسط MiroTeam",
   "author": "MiroTeam <https://miroteam.ir>",
-  "homepage": "https://rwatoken.ir",
+  "homepage": "https://rwa-assets.ir",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

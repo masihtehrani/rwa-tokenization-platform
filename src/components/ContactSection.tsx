@@ -49,7 +49,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">ایمیل</h4>
-                  <p className="text-blue-100">info@rwatoken.ir</p>
+                  <p className="text-blue-100">info@rwa-assets.ir</p>
                 </div>
               </div>
 

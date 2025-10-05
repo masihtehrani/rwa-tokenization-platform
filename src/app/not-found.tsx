@@ -83,8 +83,8 @@ export default function NotFound() {
             <a href="tel:+982112345678" className="text-yellow-400 hover:text-yellow-300">
               📞 +98 21 1234 5678
             </a>
-            <a href="mailto:info@rwatoken.ir" className="text-yellow-400 hover:text-yellow-300">
-              ✉️ info@rwatoken.ir
+            <a href="mailto:info@rwa-assets.ir" className="text-yellow-400 hover:text-yellow-300">
+              ✉️ info@rwa-assets.ir
             </a>
             <a href="https://t.me/rwatoken_support" className="text-yellow-400 hover:text-yellow-300">
               💬 @rwatoken_support

@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://rwatoken.ir',
+    canonical: 'https://rwa-assets.ir',
   },
 }
 
