@@ -20,7 +20,7 @@ const footerLinks = {
   ],
   support: [
     { name: 'راهنمای شروع', href: '/contact' },
-    { name: 'مشاوره رایگان', href: '/contact' },
+    { name: 'مشاوره رایگان', href: 'calendly' },
     { name: 'استعلام قیمت', href: '/contact' },
     { name: 'پشتیبانی فنی', href: '/contact' },
     { name: 'سوالات متداول', href: '/contact' },
@@ -107,12 +107,21 @@ export default function Footer() {
             <ul className="space-y-3">
               {footerLinks.support.map((link) => (
                 <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors duration-300"
-                  >
-                    {link.name}
-                  </Link>
+                  {link.href === 'calendly' ? (
+                    <CalendlyButton 
+                      text={link.name}
+                      variant="link"
+                      size="sm"
+                      className="text-gray-400 hover:text-white p-0 h-auto font-normal"
+                    />
+                  ) : (
+                    <Link
+                      href={link.href}
+                      className="text-gray-400 hover:text-white transition-colors duration-300"
+                    >
+                      {link.name}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
