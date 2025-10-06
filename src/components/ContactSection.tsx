@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion'
 import { Phone, Clock } from 'lucide-react'
 import CalendlyButton from './CalendlyButton'
-import ContactForm from './ContactForm'
 
 export default function ContactSection() {
   return (
@@ -80,15 +79,6 @@ export default function ContactSection() {
             </div>
           </motion.div>
 
-          {/* Contact Form */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            <ContactForm />
-          </motion.div>
         </div>
       </div>
     </section>
