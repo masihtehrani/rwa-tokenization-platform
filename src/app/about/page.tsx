@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { ExternalLink, ArrowRight, CheckCircle, Award, Target, Zap, Code, Shield, Globe } from 'lucide-react'
+import { ExternalLink, ArrowRight, CheckCircle, Award, Target, Zap, Code, Shield, Globe, Users } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'درباره RWA Labs | تیم متخصص توکنایز دارایی‌های واقعی | 5+ سال تجربه',
