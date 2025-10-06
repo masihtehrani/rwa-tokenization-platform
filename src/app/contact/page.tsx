@@ -20,26 +20,14 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'تلفن تماس',
-    details: ['+98-21-1234-5678', '+98-912-345-6789'],
+    details: ['+98-21-1234-5678'],
     description: 'تماس مستقیم با تیم پشتیبانی'
   },
   {
-    icon: Mail,
-    title: 'ایمیل',
-    details: ['info@rwa-labs.ir', 'support@rwa-labs.ir'],
-    description: 'ارسال ایمیل و دریافت پاسخ سریع'
-  },
-  {
-    icon: MessageCircle,
-    title: 'تلگرام',
-    details: ['@rwatoken_support', '@rwatoken_news'],
-    description: 'پشتیبانی فوری در تلگرام'
-  },
-  {
-    icon: MapPin,
-    title: 'آدرس',
-    details: ['تهران، خیابان ولیعصر', 'برج میلاد، طبقه 15'],
-    description: 'دفتر مرکزی RWA Labs'
+    icon: Clock,
+    title: 'تنظیم وقت ملاقات',
+    details: ['مشاوره آنلاین 30 دقیقه‌ای'],
+    description: 'رزرو وقت ملاقات آنلاین'
   }
 ]
 
@@ -87,14 +75,6 @@ export default function ContactPage() {
                 className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
               >
                 تماس فوری
-              </a>
-              <a 
-                href="https://t.me/rwatoken_support"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300"
-              >
-                تلگرام
               </a>
               <button 
                 onClick={() => {

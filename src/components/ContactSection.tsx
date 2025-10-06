@@ -45,16 +45,6 @@ export default function ContactSection() {
             <div className="space-y-6">
               <div className="flex items-center space-x-4 rtl:space-x-reverse">
                 <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
-                  <Mail className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <h4 className="text-white font-semibold">ایمیل</h4>
-                  <p className="text-blue-100">info@rwa-assets.ir</p>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-4 rtl:space-x-reverse">
-                <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -65,21 +55,33 @@ export default function ContactSection() {
 
               <div className="flex items-center space-x-4 rtl:space-x-reverse">
                 <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
-                  <MessageCircle className="w-6 h-6 text-white" />
+                  <Clock className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-white font-semibold">تلگرام</h4>
-                  <p className="text-blue-100">@rwatoken_support</p>
+                  <h4 className="text-white font-semibold">تنظیم وقت ملاقات</h4>
+                  <p className="text-blue-100">مشاوره آنلاین 30 دقیقه‌ای</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
               <h4 className="text-white font-semibold mb-3">ساعات کاری</h4>
-              <p className="text-blue-100 text-sm">
+              <p className="text-blue-100 text-sm mb-4">
                 شنبه تا پنج‌شنبه: 9:00 - 18:00<br />
                 جمعه: 10:00 - 14:00
               </p>
+              <button 
+                onClick={() => {
+                  if (typeof window !== 'undefined' && window.Calendly) {
+                    window.Calendly.initPopupWidget({
+                      url: 'https://calendly.com/mahmud-tehrani/30min-1'
+                    });
+                  }
+                }}
+                className="w-full bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300"
+              >
+                تنظیم وقت ملاقات
+              </button>
             </div>
           </motion.div>
 

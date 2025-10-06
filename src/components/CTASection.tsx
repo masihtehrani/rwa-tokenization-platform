@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowRight, Phone, MessageCircle, Mail } from 'lucide-react'
+import { ArrowRight, Phone, Clock } from 'lucide-react'
 
 export default function CTASection() {
   return (
@@ -32,49 +32,38 @@ export default function CTASection() {
           </div>
 
           {/* Contact Methods */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
             <motion.a
-              href="https://t.me/rwatoken_support"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="tel:+982112345678"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
               className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 text-white hover:bg-white/30 transition-all duration-300 group"
             >
-              <MessageCircle className="w-8 h-8 mx-auto mb-4 group-hover:scale-110 transition-transform" />
-              <h3 className="font-semibold mb-2">تلگرام</h3>
-              <p className="text-sm text-yellow-100">پشتیبانی فوری</p>
+              <Phone className="w-8 h-8 mx-auto mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="font-semibold mb-2">تلفن</h3>
+              <p className="text-sm text-yellow-100">+98-21-1234-5678</p>
             </motion.a>
 
-            <motion.a
-              href="https://wa.me/989123456789"
-              target="_blank"
-              rel="noopener noreferrer"
+            <motion.button
+              onClick={() => {
+                if (typeof window !== 'undefined' && window.Calendly) {
+                  window.Calendly.initPopupWidget({
+                    url: 'https://calendly.com/mahmud-tehrani/30min-1'
+                  });
+                }
+              }}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
               className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 text-white hover:bg-white/30 transition-all duration-300 group"
             >
-              <Phone className="w-8 h-8 mx-auto mb-4 group-hover:scale-110 transition-transform" />
-              <h3 className="font-semibold mb-2">واتس‌اپ</h3>
-              <p className="text-sm text-yellow-100">مشاوره تخصصی</p>
-            </motion.a>
-
-            <motion.a
-              href="mailto:info@rwa-assets.ir"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-              viewport={{ once: true }}
-              className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 text-white hover:bg-white/30 transition-all duration-300 group"
-            >
-              <Mail className="w-8 h-8 mx-auto mb-4 group-hover:scale-110 transition-transform" />
-              <h3 className="font-semibold mb-2">ایمیل</h3>
-              <p className="text-sm text-yellow-100">ارسال درخواست</p>
-            </motion.a>
+              <Clock className="w-8 h-8 mx-auto mb-4 group-hover:scale-110 transition-transform" />
+              <h3 className="font-semibold mb-2">تنظیم وقت ملاقات</h3>
+              <p className="text-sm text-yellow-100">مشاوره آنلاین 30 دقیقه‌ای</p>
+            </motion.button>
           </div>
 
           {/* Trust Indicators */}

@@ -24,9 +24,8 @@ const footerLinks = {
     { name: 'پشتیبانی', href: '/support' },
   ],
   social: [
-    { name: 'تلگرام', href: 'https://t.me/rwatoken_support', icon: MessageCircle },
-    { name: 'واتس‌اپ', href: 'https://wa.me/989123456789', icon: Send },
-    { name: 'ایمیل', href: 'mailto:info@rwa-assets.ir', icon: Mail },
+    { name: 'تلفن', href: 'tel:+982112345678', icon: Phone },
+    { name: 'تنظیم وقت ملاقات', href: '#', icon: Clock },
   ]
 }
 
@@ -51,16 +50,26 @@ export default function Footer() {
               هر دارایی قابل‌لمس را به توکن دیجیتال تبدیل کنید.
             </p>
             <div className="space-y-3">
-              {footerLinks.social.map((social) => (
-                <a
-                  key={social.name}
-                  href={social.href}
-                  className="flex items-center text-gray-400 hover:text-white transition-colors duration-300"
-                >
-                  <social.icon className="w-5 h-5 mr-3" />
-                  {social.name}
-                </a>
-              ))}
+              <a
+                href="tel:+982112345678"
+                className="flex items-center text-gray-400 hover:text-white transition-colors duration-300"
+              >
+                <Phone className="w-5 h-5 mr-3" />
+                تلفن: +98-21-1234-5678
+              </a>
+              <button
+                onClick={() => {
+                  if (typeof window !== 'undefined' && window.Calendly) {
+                    window.Calendly.initPopupWidget({
+                      url: 'https://calendly.com/mahmud-tehrani/30min-1'
+                    });
+                  }
+                }}
+                className="flex items-center text-gray-400 hover:text-white transition-colors duration-300"
+              >
+                <Clock className="w-5 h-5 mr-3" />
+                تنظیم وقت ملاقات
+              </button>
             </div>
           </div>
 

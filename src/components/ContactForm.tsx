@@ -195,19 +195,24 @@ export default function ContactForm() {
       {/* Contact Info */}
       <div className="mt-8 pt-8 border-t border-gray-200">
         <h4 className="text-lg font-semibold text-gray-900 mb-4">راه‌های تماس مستقیم</h4>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex items-center text-gray-600">
             <Phone className="w-5 h-5 mr-3 text-blue-600" />
             <span>+98-21-1234-5678</span>
           </div>
-          <div className="flex items-center text-gray-600">
-            <Mail className="w-5 h-5 mr-3 text-blue-600" />
-            <span>info@rwa-assets.ir</span>
-          </div>
-          <div className="flex items-center text-gray-600">
+          <button 
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.Calendly) {
+                window.Calendly.initPopupWidget({
+                  url: 'https://calendly.com/mahmud-tehrani/30min-1'
+                });
+              }
+            }}
+            className="flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-300"
+          >
             <Calendar className="w-5 h-5 mr-3 text-blue-600" />
             <span>رزرو وقت ملاقات</span>
-          </div>
+          </button>
         </div>
       </div>
     </div>
