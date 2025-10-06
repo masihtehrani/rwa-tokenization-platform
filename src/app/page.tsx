@@ -6,7 +6,6 @@ import TechnicalFeatures from '@/components/TechnicalFeatures'
 import StatsSection from '@/components/StatsSection'
 import PortfolioSection from '@/components/PortfolioSection'
 import CTASection from '@/components/CTASection'
-import ContactSection from '@/components/ContactSection'
 
 export const metadata: Metadata = {
   title: 'توکنایز دارایی‌های فیزیکی | RWA Labs',
@@ -59,7 +58,6 @@ export default function HomePage() {
       <StatsSection />
       <PortfolioSection />
       <CTASection />
-      <ContactSection />
     </main>
   )
 }
