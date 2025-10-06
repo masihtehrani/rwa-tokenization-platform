@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { ArrowRight, Shield, Zap, Globe } from 'lucide-react'
+import CalendlyButton from './CalendlyButton'
 
 export default function HeroSection() {
   return (
@@ -41,10 +42,12 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
-            <button className="bg-gradient-to-r from-yellow-500 to-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-yellow-600 hover:to-orange-700 transition-all duration-300 flex items-center justify-center group">
-              مشاوره رایگان
-              <ArrowRight className="mr-2 group-hover:translate-x-1 transition-transform" />
-            </button>
+            <CalendlyButton 
+              text="مشاوره رایگان" 
+              variant="primary" 
+              size="lg" 
+              className="bg-gradient-to-r from-yellow-500 to-orange-600 hover:from-yellow-600 hover:to-orange-700"
+            />
             <Link 
               href="/portfolio"
               className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300"
