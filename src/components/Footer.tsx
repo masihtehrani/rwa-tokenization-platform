@@ -18,6 +18,13 @@ const footerLinks = {
     { name: 'مقالات', href: '/blog' },
     { name: 'تماس با ما', href: '/contact' },
   ],
+  support: [
+    { name: 'راهنمای شروع', href: '/contact' },
+    { name: 'مشاوره رایگان', href: '/contact' },
+    { name: 'استعلام قیمت', href: '/contact' },
+    { name: 'پشتیبانی فنی', href: '/contact' },
+    { name: 'سوالات متداول', href: '/contact' },
+  ],
   social: [
     { name: 'تلفن', href: 'tel:+982112345678', icon: Phone },
   ]
@@ -82,6 +89,23 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-6">شرکت</h3>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
+                <li key={link.name}>
+                  <Link
+                    href={link.href}
+                    className="text-gray-400 hover:text-white transition-colors duration-300"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Support */}
+          <div>
+            <h3 className="text-lg font-semibold mb-6">پشتیبانی</h3>
+            <ul className="space-y-3">
+              {footerLinks.support.map((link) => (
                 <li key={link.name}>
                   <Link
                     href={link.href}
