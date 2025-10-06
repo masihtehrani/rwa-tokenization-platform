@@ -3,13 +3,14 @@
 import { motion } from 'framer-motion'
 import { ExternalLink, ArrowRight, CheckCircle } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const projects = [
   {
     id: 'saffron',
     title: 'پروژه توکن زعفران',
     description: 'اولین پروژه توکنایز زعفران در ایران با قرارداد هوشمند ERC-20 و قابلیت‌های پیشرفته',
-    image: '/images/saffron-project.jpg',
+    image: '/images/portfolio/saffron-project.jpg',
     status: 'تکمیل شده',
     features: [
       'قرارداد هوشمند ERC-20',
@@ -26,7 +27,7 @@ const projects = [
     id: 'pistachio',
     title: 'پروژه توکن پسته',
     description: 'توکنایز پسته با قابلیت‌های پیشرفته و اتصال به صرافی‌های غیرمتمرکز',
-    image: '/images/pistachio-project.jpg',
+    image: '/images/portfolio/pistachio-project.jpg',
     status: 'تکمیل شده',
     features: [
       'استاندارد ERC-20',
@@ -43,7 +44,7 @@ const projects = [
     id: 'sheep',
     title: 'پروژه توکن گوسفند',
     description: 'توکنایز دامداری و گوسفند با قابلیت‌های مدیریت پیشرفته',
-    image: '/images/sheep-project.jpg',
+    image: '/images/portfolio/sheep-project.jpg',
     status: 'تکمیل شده',
     features: [
       'استاندارد ERC-20',
@@ -60,7 +61,7 @@ const projects = [
     id: 'rice',
     title: 'پروژه توکن برنج',
     description: 'توکنایز برنج با قابلیت‌های انتقال دسته‌ای و مدیریت پیشرفته',
-    image: '/images/rice-project.jpg',
+    image: '/images/portfolio/rice-project.jpg',
     status: 'تکمیل شده',
     features: [
       'استاندارد ERC-20',
@@ -123,7 +124,13 @@ export default function PortfolioSection() {
             >
               <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
                 {/* Project Image */}
-                <div className={`h-48 bg-gradient-to-r ${project.color} relative overflow-hidden`}>
+                <div className="h-48 relative overflow-hidden">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover"
+                  />
                   <div className="absolute inset-0 bg-black/20"></div>
                   <div className="absolute top-4 right-4">
                     <span className={`px-3 py-1 rounded-full text-sm font-semibold ${
