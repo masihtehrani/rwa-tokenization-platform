@@ -1,6 +1,5 @@
 'use client'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Calendar, Clock, ArrowRight, Tag, User } from 'lucide-react'
 import { useState } from 'react'
 
@@ -220,12 +219,12 @@ export default function BlogClient() {
             {featuredArticles.map((article) => (
               <article key={article.id} className="bg-white/5 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/10 hover:border-blue-400/50 transition-all duration-300 group">
                 <div className="relative h-48">
-                  <Image
-                    src={article.image}
-                    alt={article.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+                    <div className="text-white text-center p-4">
+                      <div className="text-2xl font-bold mb-2">{article.category}</div>
+                      <div className="text-sm opacity-80">مقاله تخصصی</div>
+                    </div>
+                  </div>
                   <div className="absolute top-4 right-4">
                     <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-medium">
                       {article.category}
@@ -290,12 +289,12 @@ export default function BlogClient() {
             {filteredArticles.map((article) => (
               <article key={article.id} className="bg-white/5 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/10 hover:border-blue-400/50 transition-all duration-300 group">
                 <div className="relative h-48">
-                  <Image
-                    src={article.image}
-                    alt={article.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+                    <div className="text-white text-center p-4">
+                      <div className="text-2xl font-bold mb-2">{article.category}</div>
+                      <div className="text-sm opacity-80">مقاله تخصصی</div>
+                    </div>
+                  </div>
                   <div className="absolute top-4 right-4">
                     <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-medium">
                       {article.category}
