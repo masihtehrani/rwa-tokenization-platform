@@ -18,7 +18,9 @@ export default function CalendlyButton({
   const openCalendly = () => {
     if (typeof window !== 'undefined' && window.Calendly) {
       window.Calendly.initPopupWidget({
-        url: 'https://calendly.com/mahmud-tehrani/30min-1'
+        url: 'https://calendly.com/mahmud-tehrani/30min-1',
+        prefill: {},
+        utm: {}
       });
     } else {
       // Fallback: open in new tab
