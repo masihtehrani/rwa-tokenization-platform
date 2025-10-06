@@ -126,14 +126,14 @@ export default function WhyTokenize() {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-12 text-white">
+          <div className="bg-gradient-to-r from-green-600 to-teal-600 rounded-3xl p-12 text-white">
             <h3 className="text-3xl font-bold mb-4">
               آماده شروع توکنایز دارایی خود هستید؟
             </h3>
-            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
               با مشاوره رایگان ما، راهکار مناسب توکنایز را برای دارایی خود پیدا کنید
             </p>
-            <button className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300">
+            <button className="bg-white text-green-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300">
               مشاوره رایگان دریافت کنید
             </button>
           </div>
