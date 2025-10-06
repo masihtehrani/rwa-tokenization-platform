@@ -46,12 +46,12 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-12 rtl:space-x-reverse">
+          <nav className="hidden lg:flex items-center space-x-16 rtl:space-x-reverse">
             {navigation.map((item) => (
               <div key={item.name} className="relative group">
                 <Link
                   href={item.href}
-                  className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium"
+                  className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium px-2 py-1"
                   onMouseEnter={() => setActiveSubmenu(item.name)}
                   onMouseLeave={() => setActiveSubmenu(null)}
                 >
