@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import { ArrowRight, Phone, Clock } from 'lucide-react'
 import CalendlyButton from './CalendlyButton'
 
@@ -29,9 +30,12 @@ export default function CTASection() {
               size="lg" 
               className="bg-white text-orange-600 hover:bg-gray-100"
             />
-            <button className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-orange-600 transition-all duration-300">
+            <Link 
+              href="/portfolio"
+              className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-orange-600 transition-all duration-300"
+            >
               مشاهده نمونه‌کارها
-            </button>
+            </Link>
           </div>
 
           {/* Contact Methods */}

@@ -45,9 +45,12 @@ export default function HeroSection() {
               مشاوره رایگان
               <ArrowRight className="mr-2 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300">
+            <Link 
+              href="/portfolio"
+              className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300"
+            >
               مشاهده نمونه‌کارها
-            </button>
+            </Link>
           </motion.div>
 
           {/* Features */}
