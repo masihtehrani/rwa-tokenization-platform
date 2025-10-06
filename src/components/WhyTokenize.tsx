@@ -20,7 +20,7 @@ const benefits = [
   {
     icon: Shield,
     title: 'امنیت بالا',
-    description: '<Link href="/technology" className="text-blue-400 hover:text-blue-300 underline">قراردادهای هوشمند</Link> امن و شفاف با استانداردهای بین‌المللی',
+    description: 'قراردادهای هوشمند امن و شفاف با استانداردهای بین‌المللی',
     stat: '100% امنیت بلاکچین'
   },
   {
@@ -38,7 +38,7 @@ const benefits = [
   {
     icon: BarChart3,
     title: 'شفافیت کامل',
-    description: 'تمام تراکنش‌ها و مالکیت‌ها در <Link href="/technology" className="text-blue-400 hover:text-blue-300 underline">بلاکچین</Link> ثبت می‌شود',
+    description: 'تمام تراکنش‌ها و مالکیت‌ها در بلاکچین ثبت می‌شود',
     stat: 'شفافیت 100%'
   }
 ]
