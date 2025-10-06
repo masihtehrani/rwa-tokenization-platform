@@ -73,11 +73,8 @@ export default function ContactForm() {
     >
       <div className="text-center mb-8">
         <h3 className="text-2xl font-bold text-gray-900 mb-4">
-          درخواست مشاوره رایگان
+          درخواست مشاوره
         </h3>
-        <p className="text-gray-600">
-          فرم زیر را پر کنید تا با شما تماس بگیریم
-        </p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-6">

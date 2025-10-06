@@ -27,16 +27,11 @@ const contactInfo = [
   {
     icon: Clock,
     title: 'تنظیم وقت ملاقات',
-    details: ['مشاوره آنلاین 30 دقیقه‌ای'],
+    details: ['مشاوره آنلاین'],
     description: 'رزرو وقت ملاقات آنلاین'
   }
 ]
 
-const workingHours = [
-  { day: 'شنبه تا چهارشنبه', hours: '9:00 - 18:00' },
-  { day: 'پنج‌شنبه', hours: '9:00 - 14:00' },
-  { day: 'جمعه', hours: 'تعطیل' }
-]
 
 const faqItems = [
   {
@@ -173,43 +168,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Working Hours Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              ساعات کاری
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              ساعات پاسخگویی تیم پشتیبانی
-            </p>
-          </div>
-
-          <div className="max-w-2xl mx-auto">
-            <div className="bg-gray-50 rounded-2xl p-8">
-              <div className="flex items-center justify-center mb-6">
-                <Clock className="w-8 h-8 text-blue-600 mr-3" />
-                <h3 className="text-2xl font-bold text-gray-900">ساعات کاری</h3>
-              </div>
-              
-              <div className="space-y-4">
-                {workingHours.map((schedule, index) => (
-                  <div key={index} className="flex justify-between items-center py-3 border-b border-gray-200 last:border-b-0">
-                    <span className="font-semibold text-gray-900">{schedule.day}</span>
-                    <span className="text-blue-600 font-semibold">{schedule.hours}</span>
-                  </div>
-                ))}
-              </div>
-              
-              <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-                <p className="text-blue-800 text-sm text-center">
-                  <strong>نکته:</strong> برای مسائل فوری می‌توانید با شماره تلفن یا تنظیم وقت ملاقات با ما تماس بگیرید
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Schedule Meeting Section */}
       <section className="py-20 bg-gradient-to-r from-indigo-600 to-purple-600">

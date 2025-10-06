@@ -19,14 +19,16 @@ export default function CTASection() {
             آماده شروع توکنایز دارایی خود هستید؟
           </h2>
           <p className="text-xl text-yellow-100 mb-8 max-w-3xl mx-auto">
-            با مشاوره رایگان ما، بهترین راهکار توکنایز را برای دارایی خود پیدا کنید
+            با مشاوره ما، راهکار توکنایز را برای دارایی خود پیدا کنید
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <button className="bg-white text-orange-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 flex items-center justify-center group">
-              مشاوره رایگان دریافت کنید
-              <ArrowRight className="mr-2 group-hover:translate-x-1 transition-transform" />
-            </button>
+            <CalendlyButton 
+              text="مشاوره رایگان دریافت کنید" 
+              variant="secondary" 
+              size="lg" 
+              className="bg-white text-orange-600 hover:bg-gray-100"
+            />
             <button className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-orange-600 transition-all duration-300">
               مشاهده نمونه‌کارها
             </button>
@@ -56,7 +58,7 @@ export default function CTASection() {
             >
               <Clock className="w-8 h-8 mx-auto mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="font-semibold mb-2">تنظیم وقت ملاقات</h3>
-              <p className="text-sm text-yellow-100 mb-4">مشاوره آنلاین 30 دقیقه‌ای</p>
+              <p className="text-sm text-yellow-100 mb-4">مشاوره آنلاین</p>
               <CalendlyButton 
                 text="رزرو وقت" 
                 variant="secondary" 
