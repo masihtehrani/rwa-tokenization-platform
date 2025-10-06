@@ -135,15 +135,6 @@ export default function Footer() {
                 MiroTeam
                 <ExternalLink className="w-4 h-4 mr-1" />
               </a>
-              <a
-                href="https://zfrnbon.surge.sh"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center hover:text-white transition-colors duration-300"
-              >
-                پروژه زعفران
-                <ExternalLink className="w-4 h-4 mr-1" />
-              </a>
             </div>
           </div>
         </div>

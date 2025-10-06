@@ -1,7 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { Phone, Clock, CheckCircle } from 'lucide-react'
-import ContactForm from '@/components/ContactForm'
 import CalendlyButton from '@/components/CalendlyButton'
 
 export const metadata: Metadata = {
@@ -122,51 +121,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Form Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                فرم تماس
-              </h2>
-              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                فرم زیر را پر کنید تا در اسرع وقت با شما تماس بگیریم
-              </p>
-              
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <CheckCircle className="w-6 h-6 text-green-500 mr-3 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">مشاوره رایگان</h3>
-                    <p className="text-gray-600">مشاوره اولیه کاملاً رایگان و بدون تعهد</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <CheckCircle className="w-6 h-6 text-green-500 mr-3 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">پاسخ سریع</h3>
-                    <p className="text-gray-600">پاسخ به درخواست‌ها در کمتر از 2 ساعت</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <CheckCircle className="w-6 h-6 text-green-500 mr-3 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">پشتیبانی 24/7</h3>
-                    <p className="text-gray-600">پشتیبانی مداوم در تمام ساعات شبانه‌روز</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <ContactForm />
-            </div>
-          </div>
-        </div>
-      </section>
 
 
       {/* Schedule Meeting Section */}

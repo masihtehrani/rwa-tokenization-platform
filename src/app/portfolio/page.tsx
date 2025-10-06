@@ -5,31 +5,11 @@ import { ExternalLink, ArrowRight, CheckCircle, Calendar, Users, DollarSign } fr
 
 export const metadata: Metadata = {
   title: 'پروژه‌های تکمیل شده | نمونه‌کارهای RWA Labs',
-  description: 'پروژه‌های موفق توکنایز دارایی‌های واقعی شامل زعفران، پسته، گوسفند، برنج و سایر دارایی‌ها',
-  keywords: 'نمونه‌کار توکنایز,پروژه‌های RWA,توکن زعفران,توکن پسته,توکن گوسفند,توکن برنج',
+  description: 'پروژه‌های موفق توکنایز دارایی‌های واقعی شامل پسته، گوسفند، برنج و سایر دارایی‌ها',
+  keywords: 'نمونه‌کار توکنایز,پروژه‌های RWA,توکن پسته,توکن گوسفند,توکن برنج',
 }
 
 const projects = [
-  {
-    id: 'saffron',
-    title: 'پروژه توکن زعفران',
-    description: 'اولین پروژه توکنایز زعفران در ایران با قرارداد هوشمند ERC-20 و قابلیت‌های پیشرفته',
-    image: '/images/portfolio/saffron-project.jpg',
-    status: 'تکمیل شده',
-    launchDate: '1402/06/15',
-    totalValue: '$500K',
-    investors: '150+',
-    features: [
-      'قرارداد هوشمند ERC-20',
-      'اتصال متامسک و کیف‌پول‌های مختلف',
-      'لیست در DEX های معتبر',
-      'قابلیت فریز کیف‌پول',
-      'سیستم ایردراپ حرفه‌ای',
-      'انتقال تکی و دسته‌ای'
-    ],
-    link: 'https://zfrnbon.surge.sh',
-    color: 'from-yellow-500 to-orange-500'
-  },
   {
     id: 'pistachio',
     title: 'پروژه توکن پسته',

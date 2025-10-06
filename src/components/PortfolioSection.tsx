@@ -8,23 +8,6 @@ import { useState } from 'react'
 
 const projects = [
   {
-    id: 'saffron',
-    title: 'پروژه توکن زعفران',
-    description: 'اولین پروژه توکنایز زعفران در ایران با قرارداد هوشمند ERC-20 و قابلیت‌های پیشرفته',
-    image: '/images/portfolio/saffron-project.jpg',
-    status: 'تکمیل شده',
-    features: [
-      'قرارداد هوشمند ERC-20',
-      'اتصال متامسک و کیف‌پول‌های مختلف',
-      'لیست در DEX های معتبر',
-      'قابلیت فریز کیف‌پول',
-      'سیستم ایردراپ حرفه‌ای',
-      'انتقال تکی و دسته‌ای'
-    ],
-    link: 'https://zfrnbon.surge.sh',
-    color: 'from-yellow-500 to-orange-500'
-  },
-  {
     id: 'pistachio',
     title: 'پروژه توکن پسته',
     description: 'توکنایز پسته با قابلیت‌های پیشرفته و اتصال به صرافی‌های غیرمتمرکز',
@@ -79,7 +62,7 @@ const projects = [
 
 export default function PortfolioSection() {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const itemsPerView = 3
+  const itemsPerView = 2
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % Math.ceil(projects.length / itemsPerView))
@@ -117,7 +100,7 @@ export default function PortfolioSection() {
           {/* Navigation Buttons */}
           <button
             onClick={prevSlide}
-            className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white text-gray-600 hover:text-gray-900 rounded-full p-3 shadow-lg transition-all duration-300 hover:scale-110"
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full p-3 shadow-lg transition-all duration-300 hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed"
             disabled={currentIndex === 0}
           >
             <ChevronRight className="w-6 h-6" />
@@ -125,14 +108,14 @@ export default function PortfolioSection() {
           
           <button
             onClick={nextSlide}
-            className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white text-gray-600 hover:text-gray-900 rounded-full p-3 shadow-lg transition-all duration-300 hover:scale-110"
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full p-3 shadow-lg transition-all duration-300 hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed"
             disabled={currentIndex >= Math.ceil(projects.length / itemsPerView) - 1}
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
 
           {/* Projects Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-12">
             {getVisibleProjects().map((project, index) => (
               <motion.div
                 key={project.id}
