@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ExternalLink, ArrowRight, CheckCircle, Calendar, Users, DollarSign } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ const projects = [
     id: 'saffron',
     title: 'پروژه توکن زعفران',
     description: 'اولین پروژه توکنایز زعفران در ایران با قرارداد هوشمند ERC-20 و قابلیت‌های پیشرفته',
-    image: '/images/saffron-project.jpg',
+    image: '/images/portfolio/saffron-project.jpg',
     status: 'تکمیل شده',
     launchDate: '1402/06/15',
     totalValue: '$500K',
@@ -33,7 +34,7 @@ const projects = [
     id: 'pistachio',
     title: 'پروژه توکن پسته',
     description: 'توکنایز پسته با قابلیت‌های پیشرفته و اتصال به صرافی‌های غیرمتمرکز',
-    image: '/images/pistachio-project.jpg',
+    image: '/images/portfolio/pistachio-project.jpg',
     status: 'تکمیل شده',
     launchDate: '1402/08/20',
     totalValue: '$300K',
@@ -53,7 +54,7 @@ const projects = [
     id: 'sheep',
     title: 'پروژه توکن گوسفند',
     description: 'توکنایز دامداری و گوسفند با قابلیت‌های مدیریت پیشرفته',
-    image: '/images/sheep-project.jpg',
+    image: '/images/portfolio/sheep-project.jpg',
     status: 'تکمیل شده',
     launchDate: '1402/10/10',
     totalValue: '$200K',
@@ -73,7 +74,7 @@ const projects = [
     id: 'rice',
     title: 'پروژه توکن برنج',
     description: 'توکنایز برنج با قابلیت‌های انتقال دسته‌ای و مدیریت پیشرفته',
-    image: '/images/rice-project.jpg',
+    image: '/images/portfolio/rice-project.jpg',
     status: 'تکمیل شده',
     launchDate: '1402/12/05',
     totalValue: '$150K',
@@ -115,7 +116,13 @@ export default function PortfolioPage() {
             {projects.map((project) => (
               <div key={project.id} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                 {/* Project Header */}
-                <div className={`h-48 bg-gradient-to-r ${project.color} relative overflow-hidden`}>
+                <div className="h-48 relative overflow-hidden">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover"
+                  />
                   <div className="absolute inset-0 bg-black/20"></div>
                   <div className="absolute top-4 right-4">
                     <span className="px-3 py-1 rounded-full text-sm font-semibold bg-green-100 text-green-800">
