@@ -4,7 +4,7 @@ import { ExternalLink, ArrowRight, CheckCircle, Award, Target, Zap, Code, Shield
 
 export const metadata: Metadata = {
   title: 'درباره RWA Labs | تیم متخصص توکنایز دارایی‌های واقعی | 5+ سال تجربه',
-  description: 'آشنایی با تیم RWA Labs و متخصصان بلاکچین. 5+ سال تجربه در توکنایز دارایی‌های واقعی، قراردادهای هوشمند و فناوری‌های پیشرفته',
+  description: 'آشنایی با تیم RWA Labs و متخصصان بلاکچین. تجربه در توکنایز دارایی‌های واقعی، قراردادهای هوشمند و فناوری‌های بلاکچین',
   keywords: 'درباره RWA Labs,تیم بلاکچین,متخصصان توکنایز,توسعه قرارداد هوشمند,تیم RWA,تجربه توکنایز,متخصصان Solidity,تیم MiroTeam',
   openGraph: {
     title: 'درباره RWA Labs | تیم متخصص توکنایز دارایی‌های واقعی',
@@ -226,7 +226,7 @@ export default function AboutPage() {
               تکنولوژی‌های مورد استفاده
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              فناوری‌های پیشرفته که در پروژه‌های ما استفاده می‌شود
+              فناوری‌هایی که در پروژه‌های ما استفاده می‌شود
             </p>
           </div>
 

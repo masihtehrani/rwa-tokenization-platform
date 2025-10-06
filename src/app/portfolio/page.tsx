@@ -5,15 +5,35 @@ import { ExternalLink, ArrowRight, CheckCircle, Calendar, Users, DollarSign } fr
 
 export const metadata: Metadata = {
   title: 'پروژه‌های تکمیل شده | نمونه‌کارهای RWA Labs',
-  description: 'پروژه‌های موفق توکنایز دارایی‌های واقعی شامل پسته، گوسفند، برنج و سایر دارایی‌ها',
+  description: 'پروژه‌های موفق توکنایز دارایی‌های واقعی شامل زعفران، پسته، گوسفند، برنج و سایر دارایی‌ها',
   keywords: 'نمونه‌کار توکنایز,پروژه‌های RWA,توکن پسته,توکن گوسفند,توکن برنج',
 }
 
 const projects = [
   {
+    id: 'saffron',
+    title: 'پروژه توکن زعفران',
+    description: 'توکنایز زعفران با قابلیت‌های استاندارد و اتصال به صرافی‌های غیرمتمرکز',
+    image: '/images/portfolio/saffron-project.jpg',
+    status: 'تکمیل شده',
+    launchDate: '1402/06/15',
+    totalValue: '$500K',
+    investors: '200+',
+    features: [
+      'استاندارد ERC-20',
+      'اتصال به Uniswap V3',
+      'قابلیت پاز کردن توکن',
+      'Proxy Pattern برای ارتقا',
+      'Multi-signature Wallet',
+      'گزارش‌گیری خودکار'
+    ],
+    link: 'https://zfrnbon.surge.sh',
+    color: 'from-yellow-500 to-orange-500'
+  },
+  {
     id: 'pistachio',
     title: 'پروژه توکن پسته',
-    description: 'توکنایز پسته با قابلیت‌های پیشرفته و اتصال به صرافی‌های غیرمتمرکز',
+    description: 'توکنایز پسته با قابلیت‌های استاندارد و اتصال به صرافی‌های غیرمتمرکز',
     image: '/images/portfolio/pistachio-project.jpg',
     status: 'تکمیل شده',
     launchDate: '1402/08/20',
@@ -27,13 +47,13 @@ const projects = [
       'Multi-signature Wallet',
       'گزارش‌گیری خودکار'
     ],
-    link: 'https://zfrnbon.surge.sh',
+    link: 'https://pstebon.surge.sh',
     color: 'from-green-500 to-emerald-500'
   },
   {
     id: 'sheep',
     title: 'پروژه توکن گوسفند',
-    description: 'توکنایز دامداری و گوسفند با قابلیت‌های مدیریت پیشرفته',
+    description: 'توکنایز دامداری و گوسفند با قابلیت‌های مدیریت',
     image: '/images/portfolio/sheep-project.jpg',
     status: 'تکمیل شده',
     launchDate: '1402/10/10',

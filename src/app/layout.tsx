@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     site: "@rwatoken",
     creator: "@rwatoken",
     title: "RWA Labs - پلتفرم تخصصی توکنایز دارایی‌های واقعی",
-    description: "پلتفرم پیشرفته توکنایز دارایی‌های واقعی: املاک، طلا، زعفران، پسته، صکوک دیجیتال",
+    description: "پلتفرم توکنایز دارایی‌های واقعی: املاک، طلا، زعفران، پسته، صکوک دیجیتال",
     images: {
       url: "/images/rwa-tokenization-twitter.jpg",
       alt: "RWA Labs - توکنایز دارایی‌های واقعی",

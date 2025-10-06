@@ -9,10 +9,10 @@ import CalendlyButton from './CalendlyButton'
 
 const projects = [
   {
-    id: 'pistachio',
-    title: 'پروژه توکن پسته',
-    description: 'توکنایز پسته با قابلیت‌های پیشرفته و اتصال به صرافی‌های غیرمتمرکز',
-    image: '/images/portfolio/pistachio-project.jpg',
+    id: 'saffron',
+    title: 'پروژه توکن زعفران',
+    description: 'توکنایز زعفران با قابلیت‌های استاندارد و اتصال به صرافی‌های غیرمتمرکز',
+    image: '/images/portfolio/saffron-project.jpg',
     status: 'تکمیل شده',
     features: [
       'استاندارد ERC-20',
@@ -23,12 +23,29 @@ const projects = [
       'گزارش‌گیری خودکار'
     ],
     link: 'https://zfrnbon.surge.sh',
+    color: 'from-yellow-500 to-orange-500'
+  },
+  {
+    id: 'pistachio',
+    title: 'پروژه توکن پسته',
+    description: 'توکنایز پسته با قابلیت‌های استاندارد و اتصال به صرافی‌های غیرمتمرکز',
+    image: '/images/portfolio/pistachio-project.jpg',
+    status: 'تکمیل شده',
+    features: [
+      'استاندارد ERC-20',
+      'اتصال به Uniswap V3',
+      'قابلیت پاز کردن توکن',
+      'Proxy Pattern برای ارتقا',
+      'Multi-signature Wallet',
+      'گزارش‌گیری خودکار'
+    ],
+    link: 'https://pstebon.surge.sh',
     color: 'from-green-500 to-emerald-500'
   },
   {
     id: 'sheep',
     title: 'پروژه توکن گوسفند',
-    description: 'توکنایز دامداری و گوسفند با قابلیت‌های مدیریت پیشرفته',
+    description: 'توکنایز دامداری و گوسفند با قابلیت‌های مدیریت',
     image: '/images/portfolio/sheep-project.jpg',
     status: 'تکمیل شده',
     features: [
@@ -45,7 +62,7 @@ const projects = [
   {
     id: 'rice',
     title: 'پروژه توکن برنج',
-    description: 'توکنایز برنج با قابلیت‌های انتقال دسته‌ای و مدیریت پیشرفته',
+    description: 'توکنایز برنج با قابلیت‌های انتقال دسته‌ای و مدیریت',
     image: '/images/portfolio/rice-project.jpg',
     status: 'تکمیل شده',
     features: [
