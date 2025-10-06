@@ -5,6 +5,7 @@ import { ExternalLink, ArrowRight, CheckCircle, ChevronLeft, ChevronRight } from
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
+import CalendlyButton from './CalendlyButton'
 
 const projects = [
   {
@@ -62,7 +63,7 @@ const projects = [
 
 export default function PortfolioSection() {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const itemsPerView = 2
+  const itemsPerView = 4
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % Math.ceil(projects.length / itemsPerView))
@@ -115,7 +116,7 @@ export default function PortfolioSection() {
           </button>
 
           {/* Projects Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-12">
             {getVisibleProjects().map((project, index) => (
               <motion.div
                 key={project.id}
@@ -127,7 +128,7 @@ export default function PortfolioSection() {
               >
                 <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
                   {/* Project Image */}
-                  <div className="h-48 relative overflow-hidden">
+                  <div className="h-40 relative overflow-hidden">
                     <Image
                       src={project.image}
                       alt={project.title}
@@ -152,7 +153,7 @@ export default function PortfolioSection() {
                   </div>
 
                   {/* Project Content */}
-                  <div className="p-6">
+                  <div className="p-4">
                     <p className="text-gray-600 mb-6 leading-relaxed">
                       {project.description}
                     </p>
@@ -234,9 +235,12 @@ export default function PortfolioSection() {
               تیم متخصص ما آماده همکاری در پروژه‌های توکنایز دارایی‌های واقعی شماست
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
-                درخواست پروژه جدید
-              </button>
+              <CalendlyButton 
+                text="درخواست پروژه جدید" 
+                variant="primary" 
+                size="lg" 
+                className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+              />
               <Link href="/portfolio">
                 <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-full font-semibold hover:border-gray-400 hover:text-gray-800 transition-all duration-300">
                   مشاهده همه پروژه‌ها
