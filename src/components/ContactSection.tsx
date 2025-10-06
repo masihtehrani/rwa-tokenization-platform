@@ -64,19 +64,6 @@ export default function ContactSection() {
               </div>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <h4 className="text-white font-semibold mb-3">ساعات کاری</h4>
-              <p className="text-blue-100 text-sm mb-4">
-                شنبه تا پنج‌شنبه: 9:00 - 18:00<br />
-                جمعه: 10:00 - 14:00
-              </p>
-              <CalendlyButton 
-                text="تنظیم وقت ملاقات" 
-                variant="secondary" 
-                size="lg" 
-                className="w-full"
-              />
-            </div>
           </motion.div>
 
         </div>
