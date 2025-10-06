@@ -18,12 +18,6 @@ const footerLinks = {
     { name: 'مقالات', href: '/blog' },
     { name: 'تماس با ما', href: '/contact' },
   ],
-  legal: [
-    { name: 'قوانین و مقررات', href: '/legal/terms' },
-    { name: 'حریم خصوصی', href: '/legal/privacy' },
-    { name: 'سوالات متداول', href: '/faq' },
-    { name: 'پشتیبانی', href: '/support' },
-  ],
   social: [
     { name: 'تلفن', href: 'tel:+982112345678', icon: Phone },
   ]
@@ -100,22 +94,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6">قوانین</h3>
-            <ul className="space-y-3">
-              {footerLinks.legal.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-gray-400 hover:text-white transition-colors duration-300"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         {/* Bottom Section */}

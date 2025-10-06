@@ -34,20 +34,20 @@ const contactInfo = [
 
 const faqItems = [
   {
-    question: 'چقدر طول می‌کشد تا دارایی من توکنایز شود؟',
-    answer: 'فرآیند توکنایز معمولاً بین 3 تا 7 روز کاری طول می‌کشد، بسته به نوع دارایی و پیچیدگی پروژه.'
+    question: 'چه نوع دارایی‌هایی قابل توکنایز هستند؟',
+    answer: 'املاک، طلا، محصولات کشاورزی، خودرو، دارایی‌های معدنی و اوراق بهادار قابل توکنایز هستند.'
   },
   {
     question: 'هزینه توکنایز چقدر است؟',
     answer: 'هزینه توکنایز بر اساس نوع و ارزش دارایی محاسبه می‌شود. برای استعلام دقیق با ما تماس بگیرید.'
   },
   {
-    question: 'آیا مشاوره رایگان ارائه می‌دهید؟',
-    answer: 'بله، مشاوره اولیه کاملاً رایگان است و بدون هیچ تعهدی می‌توانید از آن استفاده کنید.'
+    question: 'آیا مشاوره ارائه می‌دهید؟',
+    answer: 'بله، مشاوره اولیه رایگان است و بدون هیچ تعهدی می‌توانید از آن استفاده کنید.'
   },
   {
-    question: 'چه نوع دارایی‌هایی قابل توکنایز هستند؟',
-    answer: 'املاک، طلا، محصولات کشاورزی، خودرو، دارایی‌های معدنی و اوراق بهادار قابل توکنایز هستند.'
+    question: 'چگونه می‌توانم شروع کنم؟',
+    answer: 'برای شروع، با ما تماس بگیرید یا وقت ملاقات تنظیم کنید تا در مورد پروژه شما صحبت کنیم.'
   }
 ]
 
@@ -81,114 +81,9 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Info Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              اطلاعات تماس
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              راه‌های مختلف تماس با تیم RWA Labs
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {contactInfo.map((info, index) => (
-              <div key={index} className="bg-gray-50 rounded-2xl p-8 text-center hover:bg-white hover:shadow-lg transition-all duration-300">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl mx-auto mb-6 flex items-center justify-center">
-                  <info.icon className="w-8 h-8 text-white" />
-                </div>
-                
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  {info.title}
-                </h3>
-                
-                <div className="space-y-2 mb-4">
-                  {info.details.map((detail, detailIndex) => (
-                    <div key={detailIndex} className="text-blue-600 font-semibold">
-                      {detail}
-                    </div>
-                  ))}
-                </div>
-                
-                <p className="text-gray-600 text-sm">
-                  {info.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
 
 
-      {/* Schedule Meeting Section */}
-      <section className="py-20 bg-gradient-to-r from-indigo-600 to-purple-600">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-white mb-6">
-              تنظیم وقت ملاقات آنلاین
-            </h2>
-            <p className="text-xl text-indigo-100 max-w-3xl mx-auto">
-              برای مشاوره تخصصی و راهنمایی کامل در مورد توکنایز دارایی‌های واقعی، وقت ملاقات آنلاین تنظیم کنید
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-2xl p-8 shadow-2xl">
-              <div className="grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                    چرا وقت ملاقات آنلاین؟
-                  </h3>
-                  <ul className="space-y-3 text-gray-600">
-                    <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-500 ml-2 mt-1 flex-shrink-0" />
-                      <span>مشاوره تخصصی و شخصی‌سازی شده</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-500 ml-2 mt-1 flex-shrink-0" />
-                      <span>بررسی دقیق پروژه و ارائه راهکار</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-500 ml-2 mt-1 flex-shrink-0" />
-                      <span>پاسخ به سوالات فنی و حقوقی</span>
-                    </li>
-                    <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-500 ml-2 mt-1 flex-shrink-0" />
-                      <span>برآورد دقیق هزینه و زمان</span>
-                    </li>
-                  </ul>
-                </div>
-                
-                <div className="text-center">
-                  <div className="bg-indigo-50 rounded-xl p-6 mb-6">
-                    <Clock className="w-12 h-12 text-indigo-600 mx-auto mb-4" />
-                    <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                      مدت زمان: 30 دقیقه
-                    </h4>
-                    <p className="text-gray-600">
-                      مشاوره رایگان و بدون تعهد
-                    </p>
-                  </div>
-                  
-                  <CalendlyButton 
-                    text="تنظیم وقت ملاقات" 
-                    variant="primary" 
-                    size="lg" 
-                    className="w-full shadow-lg hover:shadow-xl"
-                  />
-                  
-                  <p className="text-sm text-gray-500 mt-4">
-                    یا از دکمه شناور پایین صفحه استفاده کنید
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* FAQ Section */}
       <section className="py-20 bg-gray-50">

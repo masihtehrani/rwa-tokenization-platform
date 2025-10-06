@@ -59,7 +59,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">تنظیم وقت ملاقات</h4>
-                  <p className="text-blue-100">مشاوره آنلاین 30 دقیقه‌ای</p>
+                  <p className="text-blue-100">مشاوره آنلاین</p>
                 </div>
               </div>
             </div>
