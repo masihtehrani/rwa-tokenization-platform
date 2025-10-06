@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Menu, X, ChevronDown } from 'lucide-react'
+import CalendlyButton from './CalendlyButton'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const navigation = [
@@ -93,12 +94,12 @@ export default function Header() {
 
           {/* CTA Button - Right side */}
           <div className="hidden lg:flex items-center flex-shrink-0">
-            <Link
-              href="/contact"
-              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300"
-            >
-              مشاوره رایگان
-            </Link>
+            <CalendlyButton 
+              text="مشاوره رایگان" 
+              variant="primary" 
+              size="md" 
+              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-6 py-2"
+            />
           </div>
 
           {/* Mobile menu button */}
@@ -147,13 +148,14 @@ export default function Header() {
                   </div>
                 ))}
                 <div className="px-4 pt-4">
-                  <Link
-                    href="/contact"
-                    className="block w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full font-semibold text-center hover:from-blue-700 hover:to-purple-700 transition-all duration-300"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    مشاوره رایگان
-                  </Link>
+                  <div className="w-full">
+                    <CalendlyButton 
+                      text="مشاوره رایگان" 
+                      variant="primary" 
+                      size="lg" 
+                      className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-6 py-3"
+                    />
+                  </div>
                 </div>
               </div>
             </motion.div>

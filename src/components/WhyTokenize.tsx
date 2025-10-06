@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { DollarSign, Globe, Shield, Zap, Users, BarChart3 } from 'lucide-react'
+import CalendlyButton from './CalendlyButton'
 
 const benefits = [
   {
@@ -133,9 +134,12 @@ export default function WhyTokenize() {
             <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
               با مشاوره رایگان ما، راهکار مناسب توکنایز را برای دارایی خود پیدا کنید
             </p>
-            <button className="bg-white text-green-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300">
-              مشاوره رایگان دریافت کنید
-            </button>
+            <CalendlyButton 
+              text="مشاوره رایگان دریافت کنید" 
+              variant="secondary" 
+              size="lg" 
+              className="bg-white text-green-600 hover:bg-gray-100"
+            />
           </div>
         </motion.div>
       </div>
