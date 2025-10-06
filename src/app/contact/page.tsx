@@ -64,19 +64,6 @@ export default function ContactPage() {
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
               برای مشاوره رایگان، استعلام قیمت و راهنمایی در مورد توکنایز دارایی‌های واقعی با ما تماس بگیرید
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="tel:+982112345678"
-                className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300"
-              >
-                تماس فوری
-              </a>
-              <CalendlyButton 
-                text="تنظیم وقت ملاقات" 
-                variant="primary" 
-                size="lg" 
-              />
-            </div>
           </div>
         </div>
       </section>
