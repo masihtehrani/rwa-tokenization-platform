@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'RWA Labs',
     images: [
       {
-        url: '/images/technology/ipfs.svg',
+        url: '/images/technology/ipfs-storage.jpg',
         width: 1200,
         height: 630,
         alt: 'IPFS - سیستم فایل بین‌سیاره‌ای',
@@ -222,7 +222,7 @@ export default function IPFSPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/technology/ipfs.svg"
+            src="/images/technology/ipfs-storage.jpg"
             alt="IPFS - سیستم فایل بین‌سیاره‌ای"
             fill
             className="object-cover"

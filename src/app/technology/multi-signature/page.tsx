@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'RWA Labs',
     images: [
       {
-        url: '/images/technology/multisig.svg',
+        url: '/images/technology/multi-signature-security.jpg',
         width: 1200,
         height: 630,
         alt: 'Multi-Signature - کیف‌پول چند امضایی',
@@ -319,7 +319,7 @@ export default function MultiSignaturePage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/technology/multisig.svg"
+            src="/images/technology/multi-signature-security.jpg"
             alt="Multi-Signature - کیف‌پول چند امضایی"
             fill
             className="object-cover"

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'RWA Labs',
     images: [
       {
-        url: '/images/technology/erc20.svg',
+        url: '/images/technology/erc-20-deep-dive.jpg',
         width: 1200,
         height: 630,
         alt: 'ERC-20 - استاندارد توکن‌های قابل‌تعویض',
@@ -176,7 +176,7 @@ export default function ERC20Page() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/technology/erc20.svg"
+            src="/images/technology/erc-20-deep-dive.jpg"
             alt="ERC-20 - استاندارد توکن‌های قابل‌تعویض"
             fill
             className="object-cover"

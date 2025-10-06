@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'RWA Labs',
     images: [
       {
-        url: '/images/technology/solidity.svg',
+        url: '/images/technology/solidity-guide.jpg',
         width: 1200,
         height: 630,
         alt: 'Solidity - زبان برنامه‌نویسی قراردادهای هوشمند',
@@ -127,7 +127,7 @@ export default function SolidityPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/technology/solidity.svg"
+            src="/images/technology/solidity-guide.jpg"
             alt="Solidity - زبان برنامه‌نویسی قراردادهای هوشمند"
             fill
             className="object-cover"

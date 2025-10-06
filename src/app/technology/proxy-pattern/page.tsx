@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'RWA Labs',
     images: [
       {
-        url: '/images/technology/proxy-pattern.svg',
+        url: '/images/technology/proxy-pattern-explained.jpg',
         width: 1200,
         height: 630,
         alt: 'Proxy Pattern - الگوی ارتقای قراردادهای هوشمند',
@@ -177,7 +177,7 @@ export default function ProxyPatternPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/technology/proxy-pattern.svg"
+            src="/images/technology/proxy-pattern-explained.jpg"
             alt="Proxy Pattern - الگوی ارتقای قراردادهای هوشمند"
             fill
             className="object-cover"
