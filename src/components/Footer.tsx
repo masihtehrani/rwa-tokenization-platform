@@ -3,12 +3,12 @@ import { Mail, Phone, MessageCircle, ExternalLink, Send } from 'lucide-react'
 
 const footerLinks = {
   services: [
-    { name: 'توکنایز املاک', href: '/services/real-estate' },
-    { name: 'توکنایز طلا', href: '/services/precious-metals' },
-    { name: 'توکنایز محصولات کشاورزی', href: '/services/agriculture' },
-    { name: 'توکنایز خودرو', href: '/services/vehicles' },
-    { name: 'توکنایز معدن', href: '/services/mining' },
-    { name: 'صکوک دیجیتال', href: '/services/digital-sukuk' },
+    { name: 'توکنایز املاک و مستغلات', href: '/services/real-estate' },
+    { name: 'توکنایز دارایی‌های معدنی و فلزات', href: '/services/mining-metals' },
+    { name: 'توکنایز محصولات کشاورزی و دامداری', href: '/services/agriculture' },
+    { name: 'توکنایز خودرو و ماشین‌آلات', href: '/services/vehicles' },
+    { name: 'صکوک دیجیتال و اوراق بهادار', href: '/services/digital-sukuk' },
+    { name: 'کیف‌پول اختصاصی RWA', href: '/services/rwa-wallet' },
   ],
   company: [
     { name: 'درباره ما', href: '/about' },
