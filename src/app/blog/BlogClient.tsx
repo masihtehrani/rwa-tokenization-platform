@@ -13,7 +13,7 @@ const articles = [
     author: 'RWA Labs',
     readTime: '8 دقیقه',
     publishDate: '۱۴۰۳/۰۷/۱۵',
-    image: '/images/blog/rwa-intro.svg',
+    image: '/images/blog/rwa-intro.jpg',
     featured: true
   },
   {
@@ -24,7 +24,7 @@ const articles = [
     author: 'RWA Labs',
     readTime: '12 دقیقه',
     publishDate: '۱۴۰۳/۰۷/۱۴',
-    image: '/images/blog/real-estate-guide.svg',
+    image: '/images/blog/real-estate-guide.jpg',
     featured: true
   },
   {
@@ -35,7 +35,7 @@ const articles = [
     author: 'RWA Labs',
     readTime: '10 دقیقه',
     publishDate: '۱۴۰۳/۰۷/۱۳',
-    image: '/images/blog/erc-standards.svg',
+    image: '/images/blog/erc-standards.jpg',
     featured: false
   },
   {
@@ -46,7 +46,7 @@ const articles = [
     author: 'RWA Labs',
     readTime: '15 دقیقه',
     publishDate: '۱۴۰۳/۰۷/۱۲',
-    image: '/images/blog/smart-contract-security.svg',
+    image: '/images/blog/smart-contract-security.jpg',
     featured: false
   },
   {
@@ -57,7 +57,7 @@ const articles = [
     author: 'RWA Labs',
     readTime: '9 دقیقه',
     publishDate: '۱۴۰۳/۰۷/۱۱',
-    image: '/images/blog/agriculture-token.svg',
+    image: '/images/blog/agriculture-token.jpg',
     featured: false
   },
   {
@@ -68,7 +68,7 @@ const articles = [
     author: 'RWA Labs',
     readTime: '11 دقیقه',
     publishDate: '۱۴۰۳/۰۷/۱۰',
-    image: '/images/blog/legal-framework.svg',
+    image: '/images/blog/legal-framework.jpg',
     featured: false
   },
   {
@@ -79,7 +79,7 @@ const articles = [
     author: 'RWA Labs',
     readTime: '7 دقیقه',
     publishDate: '۱۴۰۳/۰۷/۰۹',
-    image: '/images/blog/oracle-pricing.svg',
+    image: '/images/blog/oracle-pricing.jpg',
     featured: false
   },
   {
@@ -90,7 +90,7 @@ const articles = [
     author: 'RWA Labs',
     readTime: '13 دقیقه',
     publishDate: '۱۴۰۳/۰۷/۰۸',
-    image: '/images/blog/defi-rwa.svg',
+    image: '/images/blog/defi-rwa.jpg',
     featured: false
   },
   {
@@ -101,7 +101,7 @@ const articles = [
     author: 'RWA Labs',
     readTime: '10 دقیقه',
     publishDate: '۱۴۰۳/۰۷/۰۷',
-    image: '/images/blog/sukuk-future.svg',
+    image: '/images/blog/sukuk-future.jpg',
     featured: false
   },
   {
@@ -112,12 +112,79 @@ const articles = [
     author: 'RWA Labs',
     readTime: '14 دقیقه',
     publishDate: '۱۴۰۳/۰۷/۰۶',
-    image: '/images/blog/rwa-trends-2024.svg',
+    image: '/images/blog/rwa-trends-2024.jpg',
+    featured: false
+  },
+  // Technology Articles
+  {
+    id: 'solidity-complete-guide',
+    title: 'راهنمای کامل Solidity برای توسعه قراردادهای هوشمند RWA',
+    excerpt: 'آموزش جامع زبان برنامه‌نویسی Solidity و بهترین روش‌های توسعه قراردادهای هوشمند',
+    category: 'تکنولوژی',
+    author: 'RWA Labs',
+    readTime: '20 دقیقه',
+    publishDate: '۱۴۰۳/۰۷/۰۵',
+    image: '/images/blog/solidity-guide.jpg',
+    featured: true
+  },
+  {
+    id: 'erc-20-deep-dive',
+    title: 'بررسی عمیق استاندارد ERC-20 و کاربردهای آن در RWA',
+    excerpt: 'تحلیل کامل استاندارد ERC-20، مزایا، محدودیت‌ها و نحوه پیاده‌سازی در پروژه‌های RWA',
+    category: 'تکنولوژی',
+    author: 'RWA Labs',
+    readTime: '16 دقیقه',
+    publishDate: '۱۴۰۳/۰۷/۰۴',
+    image: '/images/blog/erc-20-deep-dive.jpg',
+    featured: false
+  },
+  {
+    id: 'erc-3643-comprehensive',
+    title: 'استاندارد ERC-3643: راه‌حل کامل برای توکنایز دارایی‌های واقعی',
+    excerpt: 'بررسی جامع استاندارد ERC-3643 و مزایای آن نسبت به سایر استانداردها در توکنایز',
+    category: 'تکنولوژی',
+    author: 'RWA Labs',
+    readTime: '18 دقیقه',
+    publishDate: '۱۴۰۳/۰۷/۰۳',
+    image: '/images/blog/erc-3643-comprehensive.jpg',
+    featured: false
+  },
+  {
+    id: 'proxy-pattern-explained',
+    title: 'الگوی Proxy در قراردادهای هوشمند: راه‌حل به‌روزرسانی و ارتقا',
+    excerpt: 'آموزش کامل الگوی Proxy و نحوه استفاده از آن برای ایجاد قراردادهای قابل ارتقا',
+    category: 'تکنولوژی',
+    author: 'RWA Labs',
+    readTime: '12 دقیقه',
+    publishDate: '۱۴۰۳/۰۷/۰۲',
+    image: '/images/blog/proxy-pattern-explained.jpg',
+    featured: false
+  },
+  {
+    id: 'multi-signature-security',
+    title: 'امنیت Multi-Signature در قراردادهای RWA',
+    excerpt: 'راهکارهای امنیتی Multi-Signature و نحوه پیاده‌سازی آن در پروژه‌های توکنایز',
+    category: 'تکنولوژی',
+    author: 'RWA Labs',
+    readTime: '14 دقیقه',
+    publishDate: '۱۴۰۳/۰۷/۰۱',
+    image: '/images/blog/multi-signature-security.jpg',
+    featured: false
+  },
+  {
+    id: 'ipfs-storage-solution',
+    title: 'IPFS: راه‌حل ذخیره‌سازی غیرمتمرکز برای RWA',
+    excerpt: 'نحوه استفاده از IPFS برای ذخیره‌سازی امن و غیرمتمرکز اسناد و مدارک RWA',
+    category: 'تکنولوژی',
+    author: 'RWA Labs',
+    readTime: '11 دقیقه',
+    publishDate: '۱۴۰۳/۰۶/۳۰',
+    image: '/images/blog/ipfs-storage.jpg',
     featured: false
   }
 ]
 
-const categories = ['همه', 'آموزشی', 'راهنما', 'فنی', 'امنیت', 'کاربردی', 'حقوقی', 'DeFi', 'مالی', 'بازار']
+const categories = ['همه', 'آموزشی', 'راهنما', 'فنی', 'امنیت', 'کاربردی', 'حقوقی', 'DeFi', 'مالی', 'بازار', 'تکنولوژی']
 
 export default function BlogClient() {
   const [selectedCategory, setSelectedCategory] = useState('همه')
