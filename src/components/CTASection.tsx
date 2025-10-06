@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { ArrowRight, Phone, Clock } from 'lucide-react'
+import CalendlyButton from './CalendlyButton'
 
 export default function CTASection() {
   return (
@@ -46,14 +47,7 @@ export default function CTASection() {
               <p className="text-sm text-yellow-100">+98-21-1234-5678</p>
             </motion.a>
 
-            <motion.button
-              onClick={() => {
-                if (typeof window !== 'undefined' && window.Calendly) {
-                  window.Calendly.initPopupWidget({
-                    url: 'https://calendly.com/mahmud-tehrani/30min-1'
-                  });
-                }
-              }}
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
@@ -62,8 +56,14 @@ export default function CTASection() {
             >
               <Clock className="w-8 h-8 mx-auto mb-4 group-hover:scale-110 transition-transform" />
               <h3 className="font-semibold mb-2">تنظیم وقت ملاقات</h3>
-              <p className="text-sm text-yellow-100">مشاوره آنلاین 30 دقیقه‌ای</p>
-            </motion.button>
+              <p className="text-sm text-yellow-100 mb-4">مشاوره آنلاین 30 دقیقه‌ای</p>
+              <CalendlyButton 
+                text="رزرو وقت" 
+                variant="secondary" 
+                size="sm" 
+                className="w-full"
+              />
+            </motion.div>
           </div>
 
           {/* Trust Indicators */}

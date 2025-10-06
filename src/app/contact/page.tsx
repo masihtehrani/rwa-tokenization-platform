@@ -1,7 +1,8 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { Mail, Phone, MapPin, Clock, MessageCircle, Send, CheckCircle } from 'lucide-react'
+import { Phone, Clock, CheckCircle } from 'lucide-react'
 import ContactForm from '@/components/ContactForm'
+import CalendlyButton from '@/components/CalendlyButton'
 
 export const metadata: Metadata = {
   title: 'تماس با RWA Labs | مشاوره رایگان توکنایز | پشتیبانی 24/7',
@@ -76,18 +77,11 @@ export default function ContactPage() {
               >
                 تماس فوری
               </a>
-              <button 
-                onClick={() => {
-                  if (typeof window !== 'undefined' && window.Calendly) {
-                    window.Calendly.initPopupWidget({
-                      url: 'https://calendly.com/mahmud-tehrani/30min-1'
-                    });
-                  }
-                }}
-                className="bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-700 transition-all duration-300"
-              >
-                تنظیم وقت ملاقات
-              </button>
+              <CalendlyButton 
+                text="تنظیم وقت ملاقات" 
+                variant="primary" 
+                size="lg" 
+              />
             </div>
           </div>
         </div>
@@ -209,7 +203,7 @@ export default function ContactPage() {
               
               <div className="mt-6 p-4 bg-blue-50 rounded-lg">
                 <p className="text-blue-800 text-sm text-center">
-                  <strong>نکته:</strong> برای مسائل فوری می‌توانید از طریق تلگرام یا واتس‌اپ با ما تماس بگیرید
+                  <strong>نکته:</strong> برای مسائل فوری می‌توانید با شماره تلفن یا تنظیم وقت ملاقات با ما تماس بگیرید
                 </p>
               </div>
             </div>
@@ -267,18 +261,12 @@ export default function ContactPage() {
                     </p>
                   </div>
                   
-                  <button 
-                    onClick={() => {
-                      if (typeof window !== 'undefined' && window.Calendly) {
-                        window.Calendly.initPopupWidget({
-                          url: 'https://calendly.com/mahmud-tehrani/30min-1'
-                        });
-                      }
-                    }}
-                    className="w-full bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl"
-                  >
-                    تنظیم وقت ملاقات
-                  </button>
+                  <CalendlyButton 
+                    text="تنظیم وقت ملاقات" 
+                    variant="primary" 
+                    size="lg" 
+                    className="w-full shadow-lg hover:shadow-xl"
+                  />
                   
                   <p className="text-sm text-gray-500 mt-4">
                     یا از دکمه شناور پایین صفحه استفاده کنید
@@ -335,14 +323,12 @@ export default function ContactPage() {
             >
               تماس فوری
             </a>
-            <a 
-              href="https://t.me/rwatoken_support"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300"
-            >
-              تلگرام
-            </a>
+            <CalendlyButton 
+              text="تنظیم وقت ملاقات" 
+              variant="outline" 
+              size="lg" 
+              className="border-2 border-white text-white hover:bg-white hover:text-blue-600"
+            />
           </div>
         </div>
       </section>

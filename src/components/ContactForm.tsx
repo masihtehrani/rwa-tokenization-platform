@@ -2,16 +2,15 @@
 
 import { motion } from 'framer-motion'
 import { useState } from 'react'
-import { Phone, Mail, Calendar, ArrowRight, CheckCircle } from 'lucide-react'
+import { Phone, ArrowRight, CheckCircle } from 'lucide-react'
+import CalendlyButton from './CalendlyButton'
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
     phone: '',
     projectType: '',
-    message: '',
-    meetingType: 'iranian'
+    message: ''
   })
 
   const [isSubmitted, setIsSubmitted] = useState(false)
@@ -28,11 +27,9 @@ export default function ContactForm() {
       setIsSubmitted(false)
       setFormData({
         name: '',
-        email: '',
         phone: '',
         projectType: '',
-        message: '',
-        meetingType: 'iranian'
+        message: ''
       })
     }, 3000)
   }
@@ -49,143 +46,115 @@ export default function ContactForm() {
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
-        className="bg-green-50 border border-green-200 rounded-2xl p-8 text-center"
+        transition={{ duration: 0.5 }}
+        className="bg-white rounded-2xl p-8 text-center"
       >
-        <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
-        <h3 className="text-2xl font-bold text-green-800 mb-2">درخواست شما ارسال شد!</h3>
-        <p className="text-green-600">تیم ما در کمتر از 24 ساعت با شما تماس خواهد گرفت.</p>
+        <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+          <CheckCircle className="w-8 h-8 text-green-600" />
+        </div>
+        <h3 className="text-2xl font-bold text-gray-900 mb-4">
+          درخواست شما با موفقیت ارسال شد!
+        </h3>
+        <p className="text-gray-600 mb-6">
+          تیم ما در اسرع وقت با شما تماس خواهد گرفت
+        </p>
+        <CalendlyButton text="تنظیم وقت ملاقات" variant="primary" size="lg" />
       </motion.div>
     )
   }
 
   return (
-    <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+      className="bg-white rounded-2xl p-8 shadow-xl"
+    >
       <div className="text-center mb-8">
-        <h3 className="text-3xl font-bold text-gray-900 mb-4">
-          درخواست دمو و استعلام قیمت
+        <h3 className="text-2xl font-bold text-gray-900 mb-4">
+          درخواست مشاوره رایگان
         </h3>
         <p className="text-gray-600">
-          فرم زیر را پر کنید تا تیم متخصص ما با شما تماس بگیرد
+          فرم زیر را پر کنید تا با شما تماس بگیریم
         </p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-2">
+            <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
               نام و نام خانوادگی *
             </label>
             <input
               type="text"
+              id="name"
               name="name"
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              placeholder="نام کامل خود را وارد کنید"
+              className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300"
+              placeholder="نام خود را وارد کنید"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-2">
+            <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-2">
               شماره تماس *
             </label>
             <input
               type="tel"
+              id="phone"
               name="phone"
               value={formData.phone}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300"
               placeholder="09123456789"
             />
           </div>
         </div>
 
         <div>
-          <label className="block text-sm font-semibold text-gray-700 mb-2">
-            ایمیل *
-          </label>
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            placeholder="example@email.com"
-          />
-        </div>
-
-        <div>
-          <label className="block text-sm font-semibold text-gray-700 mb-2">
-            نوع پروژه *
+          <label htmlFor="projectType" className="block text-sm font-semibold text-gray-700 mb-2">
+            نوع پروژه
           </label>
           <select
+            id="projectType"
             name="projectType"
             value={formData.projectType}
             onChange={handleChange}
-            required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300"
           >
             <option value="">انتخاب کنید</option>
-                      <option value="real-estate">توکنایز املاک</option>
-                      <option value="precious-metals">توکنایز طلا و فلزات</option>
-                      <option value="agriculture">توکنایز محصولات کشاورزی</option>
-                      <option value="vehicles">توکنایز خودرو</option>
-                      <option value="mining">توکنایز دارایی‌های معدنی</option>
-                      <option value="sukuk">صکوک دیجیتال</option>
-                      <option value="custom">سایر</option>
+            <option value="real-estate">توکنایز املاک و مستغلات</option>
+            <option value="mining-metals">توکنایز دارایی‌های معدنی و فلزات</option>
+            <option value="agriculture">توکنایز محصولات کشاورزی و دامداری</option>
+            <option value="vehicles">توکنایز خودرو و ماشین‌آلات</option>
+            <option value="digital-sukuk">صکوک دیجیتال و اوراق بهادار</option>
+            <option value="rwa-wallet">کیف‌پول بر بستر بلاکچین</option>
+            <option value="other">سایر</option>
           </select>
         </div>
 
         <div>
-          <label className="block text-sm font-semibold text-gray-700 mb-2">
-            نوع ملاقات
-          </label>
-          <div className="flex space-x-4 rtl:space-x-reverse">
-            <label className="flex items-center">
-              <input
-                type="radio"
-                name="meetingType"
-                value="iranian"
-                checked={formData.meetingType === 'iranian'}
-                onChange={handleChange}
-                className="mr-2"
-              />
-              ملاقات ایرانی
-            </label>
-            <label className="flex items-center">
-              <input
-                type="radio"
-                name="meetingType"
-                value="international"
-                checked={formData.meetingType === 'international'}
-                onChange={handleChange}
-                className="mr-2"
-              />
-              ملاقات بین‌المللی
-            </label>
-          </div>
-        </div>
-
-        <div>
-          <label className="block text-sm font-semibold text-gray-700 mb-2">
+          <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
             توضیحات پروژه
           </label>
           <textarea
+            id="message"
             name="message"
             value={formData.message}
             onChange={handleChange}
             rows={4}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            placeholder="جزئیات پروژه خود را شرح دهید..."
+            className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-300 resize-none"
+            placeholder="توضیحات بیشتری در مورد پروژه خود ارائه دهید..."
           />
         </div>
 
         <button
           type="submit"
-          className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 px-8 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center group"
+          className="w-full bg-indigo-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-indigo-700 transition-all duration-300 flex items-center justify-center group"
         >
           ارسال درخواست
           <ArrowRight className="mr-2 group-hover:translate-x-1 transition-transform" />
@@ -200,21 +169,9 @@ export default function ContactForm() {
             <Phone className="w-5 h-5 mr-3 text-blue-600" />
             <span>+98-21-1234-5678</span>
           </div>
-          <button 
-            onClick={() => {
-              if (typeof window !== 'undefined' && window.Calendly) {
-                window.Calendly.initPopupWidget({
-                  url: 'https://calendly.com/mahmud-tehrani/30min-1'
-                });
-              }
-            }}
-            className="flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-300"
-          >
-            <Calendar className="w-5 h-5 mr-3 text-blue-600" />
-            <span>رزرو وقت ملاقات</span>
-          </button>
+          <CalendlyButton text="رزرو وقت ملاقات" variant="outline" size="sm" />
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }

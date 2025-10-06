@@ -1,7 +1,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Mail, Phone, MessageCircle } from 'lucide-react'
+import { Phone, Clock } from 'lucide-react'
+import CalendlyButton from './CalendlyButton'
 import ContactForm from './ContactForm'
 
 export default function ContactSection() {
@@ -70,18 +71,12 @@ export default function ContactSection() {
                 شنبه تا پنج‌شنبه: 9:00 - 18:00<br />
                 جمعه: 10:00 - 14:00
               </p>
-              <button 
-                onClick={() => {
-                  if (typeof window !== 'undefined' && window.Calendly) {
-                    window.Calendly.initPopupWidget({
-                      url: 'https://calendly.com/mahmud-tehrani/30min-1'
-                    });
-                  }
-                }}
-                className="w-full bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300"
-              >
-                تنظیم وقت ملاقات
-              </button>
+              <CalendlyButton 
+                text="تنظیم وقت ملاقات" 
+                variant="secondary" 
+                size="lg" 
+                className="w-full"
+              />
             </div>
           </motion.div>
 

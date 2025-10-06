@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { ExternalLink, ArrowRight, CheckCircle, Users, Award, Target, Zap, Code, Shield, Globe } from 'lucide-react'
+import { ExternalLink, ArrowRight, CheckCircle, Award, Target, Zap, Code, Shield, Globe } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'درباره RWA Labs | تیم متخصص توکنایز دارایی‌های واقعی | 5+ سال تجربه',
@@ -15,40 +15,6 @@ export const metadata: Metadata = {
   },
 }
 
-const teamMembers = [
-  {
-    name: 'احمد محمدی',
-    role: 'مدیر فنی و متخصص بلاکچین',
-    experience: '8+ سال تجربه',
-    expertise: ['Solidity', 'Smart Contracts', 'DeFi Protocols', 'ERC-20', 'ERC-3643'],
-    description: 'متخصص در توسعه قراردادهای هوشمند و معماری سیستم‌های بلاکچین با بیش از 50 پروژه موفق',
-    avatar: '/images/team/ahmad-mohammadi.jpg'
-  },
-  {
-    name: 'فاطمه احمدی',
-    role: 'متخصص امنیت و حسابرسی',
-    experience: '6+ سال تجربه',
-    expertise: ['Security Audit', 'Penetration Testing', 'Risk Assessment', 'Multi-Sig'],
-    description: 'متخصص در امنیت قراردادهای هوشمند و حسابرسی کد با تاییدیه‌های بین‌المللی',
-    avatar: '/images/team/fatemeh-ahmadi.jpg'
-  },
-  {
-    name: 'علی رضایی',
-    role: 'معمار سیستم و DevOps',
-    experience: '7+ سال تجربه',
-    expertise: ['System Architecture', 'DevOps', 'Cloud Infrastructure', 'CI/CD'],
-    description: 'متخصص در معماری سیستم‌های توزیع‌شده و راه‌اندازی زیرساخت‌های ابری',
-    avatar: '/images/team/ali-rezaei.jpg'
-  },
-  {
-    name: 'مریم حسینی',
-    role: 'متخصص UI/UX و Frontend',
-    experience: '5+ سال تجربه',
-    expertise: ['React', 'Next.js', 'TypeScript', 'Web3 Integration'],
-    description: 'متخصص در طراحی رابط کاربری و تجربه کاربری برای اپلیکیشن‌های Web3',
-    avatar: '/images/team/maryam-hosseini.jpg'
-  }
-]
 
 const achievements = [
   {
@@ -219,54 +185,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              تیم ما
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              متخصصان بلاکچین و توسعه‌دهندگان با تجربه در توکنایز دارایی‌های واقعی
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => (
-              <div key={index} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Users className="w-10 h-10 text-white" />
-                </div>
-                
-                <h3 className="text-xl font-bold text-gray-900 mb-2 text-center">
-                  {member.name}
-                </h3>
-                
-                <div className="text-blue-600 font-semibold text-center mb-2">
-                  {member.role}
-                </div>
-                
-                <div className="text-gray-500 text-sm text-center mb-4">
-                  {member.experience}
-                </div>
-                
-                <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-                  {member.description}
-                </p>
-
-                <div className="space-y-2">
-                  {member.expertise.map((skill, skillIndex) => (
-                    <div key={skillIndex} className="flex items-center text-xs text-gray-600">
-                      <CheckCircle className="w-3 h-3 text-green-500 mr-2 flex-shrink-0" />
-                      {skill}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Values Section */}
       <section className="py-20 bg-white">

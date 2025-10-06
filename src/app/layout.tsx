@@ -129,15 +129,29 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              window.onload = function() { 
-                Calendly.initBadgeWidget({ 
-                  url: 'https://calendly.com/mahmud-tehrani/30min-1', 
-                  text: 'زمان ملاقات آنلاین', 
-                  color: '#3b82f6', 
-                  textColor: '#ffffff', 
-                  branding: true 
-                }); 
-              }
+              document.addEventListener('DOMContentLoaded', function() {
+                if (typeof Calendly !== 'undefined') {
+                  Calendly.initBadgeWidget({ 
+                    url: 'https://calendly.com/mahmud-tehrani/30min-1', 
+                    text: 'زمان ملاقات آنلاین', 
+                    color: '#3b82f6', 
+                    textColor: '#ffffff', 
+                    branding: true 
+                  });
+                } else {
+                  setTimeout(function() {
+                    if (typeof Calendly !== 'undefined') {
+                      Calendly.initBadgeWidget({ 
+                        url: 'https://calendly.com/mahmud-tehrani/30min-1', 
+                        text: 'زمان ملاقات آنلاین', 
+                        color: '#3b82f6', 
+                        textColor: '#ffffff', 
+                        branding: true 
+                      });
+                    }
+                  }, 1000);
+                }
+              });
             `,
           }}
         />

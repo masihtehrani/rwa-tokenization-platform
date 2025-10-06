@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { Mail, Phone, MessageCircle, ExternalLink, Send } from 'lucide-react'
+import { Phone, Clock, ExternalLink } from 'lucide-react'
+import CalendlyButton from './CalendlyButton'
 
 const footerLinks = {
   services: [
@@ -25,7 +26,6 @@ const footerLinks = {
   ],
   social: [
     { name: 'تلفن', href: 'tel:+982112345678', icon: Phone },
-    { name: 'تنظیم وقت ملاقات', href: '#', icon: Clock },
   ]
 }
 
@@ -49,7 +49,7 @@ export default function Footer() {
               پلتفرم تخصصی توکنایز دارایی‌های واقعی با استفاده از فناوری بلاکچین. 
               هر دارایی قابل‌لمس را به توکن دیجیتال تبدیل کنید.
             </p>
-            <div className="space-y-3">
+            <div className="space-y-4">
               <a
                 href="tel:+982112345678"
                 className="flex items-center text-gray-400 hover:text-white transition-colors duration-300"
@@ -57,19 +57,12 @@ export default function Footer() {
                 <Phone className="w-5 h-5 mr-3" />
                 تلفن: +98-21-1234-5678
               </a>
-              <button
-                onClick={() => {
-                  if (typeof window !== 'undefined' && window.Calendly) {
-                    window.Calendly.initPopupWidget({
-                      url: 'https://calendly.com/mahmud-tehrani/30min-1'
-                    });
-                  }
-                }}
-                className="flex items-center text-gray-400 hover:text-white transition-colors duration-300"
-              >
-                <Clock className="w-5 h-5 mr-3" />
-                تنظیم وقت ملاقات
-              </button>
+              <CalendlyButton 
+                text="تنظیم وقت ملاقات" 
+                variant="outline" 
+                size="sm" 
+                className="text-gray-400 hover:text-white border-gray-400 hover:border-white"
+              />
             </div>
           </div>
 
