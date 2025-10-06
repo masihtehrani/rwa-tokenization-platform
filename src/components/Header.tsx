@@ -46,12 +46,12 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-16 rtl:space-x-reverse">
+          <nav className="hidden lg:flex items-center space-x-8 rtl:space-x-reverse">
             {navigation.map((item) => (
               <div key={item.name} className="relative group">
                 <Link
                   href={item.href}
-                  className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium px-2 py-1"
+                  className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium px-3 py-2"
                   onMouseEnter={() => setActiveSubmenu(item.name)}
                   onMouseLeave={() => setActiveSubmenu(null)}
                 >
@@ -89,17 +89,15 @@ export default function Header() {
                 )}
               </div>
             ))}
-          </nav>
-
-          {/* CTA Button */}
-          <div className="hidden lg:flex items-center space-x-4 rtl:space-x-reverse">
+            
+            {/* CTA Button */}
             <Link
               href="/contact"
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300"
             >
               مشاوره رایگان
             </Link>
-          </div>
+          </nav>
 
           {/* Mobile menu button */}
           <button

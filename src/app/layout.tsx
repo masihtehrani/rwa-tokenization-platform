@@ -10,6 +10,7 @@ const vazirmatn = Vazirmatn({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://rwa-labs.ir'),
   title: "RWA Labs - پلتفرم تخصصی توکنایز دارایی‌های فیزیکی | توکن املاک، طلا، زعفران، پسته",
   description: "پلتفرم پیشرفته توکنایز دارایی‌های فیزیکی: املاک، طلا، زعفران، پسته، صکوک دیجیتال. مشاوره رایگان، قراردادهای هوشمند امن، پشتیبانی 24/7، بازار ثانویه، کیف‌پول اختصاصی",
   keywords: "توکنایز,دارایی واقعی,RWA,بلاکچین,قرارداد هوشمند,توکن املاک,توکن طلا,توکن زعفران,صکوک دیجیتال,توکن پسته,توکن برنج,ERC-20,ERC-3643,DeFi,Solidity,توکنایز املاک,توکنایز طلا,توکنایز زعفران,توکنایز پسته,صکوک دیجیتال,کیف‌پول RWA,مشاوره رایگان توکنایز",
@@ -102,11 +103,13 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta name="theme-color" content="#3b82f6" />
+        <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="RWA Labs" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icons/icon-32x32.png" type="image/png" />
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
         <script
           type="application/ld+json"
