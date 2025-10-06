@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Wallet, ArrowRight, CheckCircle, Shield, Zap, Globe, Users, BarChart3, TrendingUp, DollarSign } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'کیف‌پول اختصاصی RWA | کیف‌پول بلاکچینی برای توکن‌های دارایی واقعی | RWA Labs',
+  title: 'کیف‌پول بر بستر بلاکچین | کیف‌پول بلاکچینی برای توکن‌های دارایی واقعی | RWA Labs',
   description: 'کیف‌پول بلاکچینی اختصاصی برای ذخیره و مدیریت توکن‌های RWA. امنیت بالا، رابط کاربری ساده، پشتیبانی از تمام شبکه‌ها',
   keywords: 'کیف‌پول RWA,کیف‌پول بلاکچینی,کیف‌پول اختصاصی,مدیریت توکن,امنیت کیف‌پول,RWA wallet',
 }
@@ -114,7 +114,7 @@ export default function RWAWalletPage() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              کیف‌پول اختصاصی RWA
+              کیف‌پول بر بستر بلاکچین
             </h1>
             <p className="text-xl text-indigo-100 mb-8 leading-relaxed">
               کیف‌پول بلاکچینی اختصاصی برای ذخیره و مدیریت توکن‌های دارایی واقعی

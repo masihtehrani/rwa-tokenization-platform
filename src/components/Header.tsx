@@ -16,7 +16,7 @@ const navigation = [
       { name: 'توکنایز محصولات کشاورزی و دامداری', href: '/services/agriculture' },
       { name: 'توکنایز خودرو و ماشین‌آلات', href: '/services/vehicles' },
       { name: 'صکوک دیجیتال و اوراق بهادار', href: '/services/digital-sukuk' },
-      { name: 'کیف‌پول اختصاصی RWA', href: '/services/rwa-wallet' },
+      { name: 'کیف‌پول بر بستر بلاکچین', href: '/services/rwa-wallet' },
     ]
   },
   { name: 'پروژه‌ها', href: '/portfolio' },

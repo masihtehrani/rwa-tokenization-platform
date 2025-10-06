@@ -4,7 +4,7 @@ import { Building2, Gem, Wheat, Car, FileText, Wallet, ArrowRight, CheckCircle, 
 
 export const metadata: Metadata = {
   title: 'خدمات توکنایز دارایی‌های واقعی | RWA Labs - 6 سرویس تخصصی',
-  description: '6 سرویس تخصصی توکنایز: املاک، دارایی‌های معدنی، محصولات کشاورزی، خودرو، صکوک دیجیتال و کیف‌پول اختصاصی RWA',
+  description: '6 سرویس تخصصی توکنایز: املاک، دارایی‌های معدنی، محصولات کشاورزی، خودرو، صکوک دیجیتال و کیف‌پول بر بستر بلاکچین',
   keywords: 'خدمات توکنایز,توکنایز املاک,توکن طلا,توکن محصولات کشاورزی,صکوک دیجیتال,کیف‌پول RWA,توکنایز دارایی واقعی',
   openGraph: {
     title: 'خدمات توکنایز دارایی‌های واقعی | RWA Labs',
@@ -103,7 +103,7 @@ const services = [
   },
   {
     id: 'rwa-wallet',
-    title: 'کیف‌پول اختصاصی RWA',
+    title: 'کیف‌پول بر بستر بلاکچین',
     description: 'کیف‌پول بلاکچینی اختصاصی برای ذخیره و مدیریت توکن‌های RWA',
     icon: Wallet,
     color: 'from-indigo-500 to-purple-500',

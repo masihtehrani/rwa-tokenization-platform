@@ -47,7 +47,7 @@ const services = [
   },
   {
     id: 'rwa-wallet',
-    title: 'کیف‌پول اختصاصی RWA',
+    title: 'کیف‌پول بر بستر بلاکچین',
     description: 'کیف‌پول بلاکچینی اختصاصی برای ذخیره و مدیریت توکن‌های RWA',
     icon: Wallet,
     color: 'from-indigo-500 to-purple-500',
