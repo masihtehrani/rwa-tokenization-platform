@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'توکنایز دارایی‌های فیزیکی | پلتفرم تخصصی RWA',
+    title: 'توکنایز دارایی‌های فیزیکی | پلتفرم RWA',
     description: 'دارایی‌های فیزیکی خود را توکنایز کنید',
     images: ['/images/rwa-tokenization-twitter.jpg'],
   },

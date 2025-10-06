@@ -5,7 +5,7 @@ import CalendlyButton from '@/components/CalendlyButton'
 
 export const metadata: Metadata = {
   title: 'تماس با RWA Labs | مشاوره رایگان توکنایز | پشتیبانی 24/7',
-  description: 'تماس با تیم RWA Labs برای مشاوره رایگان توکنایز دارایی‌های واقعی. پشتیبانی 24/7، مشاوره تخصصی و راهنمایی کامل',
+  description: 'تماس با تیم RWA Labs برای مشاوره رایگان توکنایز دارایی‌های واقعی. پشتیبانی و راهنمایی',
   keywords: 'تماس RWA Labs,مشاوره رایگان توکنایز,پشتیبانی توکنایز,تماس با تیم بلاکچین,راهنمایی توکنایز',
   openGraph: {
     title: 'تماس با RWA Labs | مشاوره رایگان توکنایز',

@@ -67,7 +67,7 @@ export default function ServicesOverview() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            خدمات تخصصی ما
+            خدمات ما
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             هر نوع دارایی واقعی را با استانداردهای بین‌المللی و امنیت بالا توکنایز می‌کنیم

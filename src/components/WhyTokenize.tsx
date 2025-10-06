@@ -37,7 +37,7 @@ const benefits = [
   },
   {
     icon: BarChart3,
-    title: 'شفافیت کامل',
+    title: 'شفافیت',
     description: 'تمام تراکنش‌ها و مالکیت‌ها در بلاکچین ثبت می‌شود',
     stat: 'شفافیت 100%'
   }
@@ -131,7 +131,7 @@ export default function WhyTokenize() {
               آماده شروع توکنایز دارایی خود هستید؟
             </h3>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              با مشاوره رایگان ما، بهترین راهکار توکنایز را برای دارایی خود پیدا کنید
+              با مشاوره رایگان ما، راهکار مناسب توکنایز را برای دارایی خود پیدا کنید
             </p>
             <button className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300">
               مشاوره رایگان دریافت کنید

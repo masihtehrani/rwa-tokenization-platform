@@ -107,7 +107,7 @@ export default function StatsSection() {
               </div>
               <div>
                 <div className="text-yellow-400 font-semibold mb-2">✓ پشتیبانی 24/7</div>
-                <div className="text-sm">پشتیبانی کامل و مشاوره تخصصی</div>
+                <div className="text-sm">پشتیبانی و مشاوره</div>
               </div>
             </div>
           </div>
