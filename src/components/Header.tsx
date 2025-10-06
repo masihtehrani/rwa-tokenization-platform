@@ -33,9 +33,9 @@ export default function Header() {
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 rtl:space-x-reverse">
+          <Link href="/" className="flex items-center space-x-2 rtl:space-x-reverse flex-shrink-0">
             <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">RWA</span>
             </div>
@@ -45,8 +45,8 @@ export default function Header() {
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8 rtl:space-x-reverse">
+          {/* Desktop Navigation - Centered */}
+          <nav className="hidden lg:flex items-center space-x-8 rtl:space-x-reverse flex-1 justify-center">
             {navigation.map((item) => (
               <div key={item.name} className="relative group">
                 <Link
@@ -89,15 +89,17 @@ export default function Header() {
                 )}
               </div>
             ))}
-            
-            {/* CTA Button */}
+          </nav>
+
+          {/* CTA Button - Right side */}
+          <div className="hidden lg:flex items-center flex-shrink-0">
             <Link
               href="/contact"
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300"
             >
               مشاوره رایگان
             </Link>
-          </nav>
+          </div>
 
           {/* Mobile menu button */}
           <button
