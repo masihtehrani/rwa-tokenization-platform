@@ -103,7 +103,7 @@ export default function StatsSection() {
               </div>
               <div>
                 <div className="text-yellow-400 font-semibold mb-2">✓ سرعت بالا</div>
-                <div className="text-sm">توکنایز در 72 ساعت با کمترین کارمزد</div>
+                <div className="text-sm">توکنایز سریع با کمترین کارمزد</div>
               </div>
               <div>
                 <div className="text-yellow-400 font-semibold mb-2">✓ پشتیبانی 24/7</div>

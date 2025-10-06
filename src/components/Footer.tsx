@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               پلتفرم تخصصی توکنایز دارایی‌های واقعی با استفاده از فناوری بلاکچین. 
-              هر دارایی قابل‌لمس را در 72 ساعت به توکن دیجیتال تبدیل کنید.
+              هر دارایی قابل‌لمس را به توکن دیجیتال تبدیل کنید.
             </p>
             <div className="space-y-3">
               {footerLinks.social.map((social) => (

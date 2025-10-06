@@ -90,7 +90,7 @@ export default function CTASection() {
             </div>
             <div className="flex justify-center items-center space-x-8 rtl:space-x-reverse text-yellow-200 text-sm">
               <span>✓ امنیت بالا</span>
-              <span>✓ سرعت 72 ساعته</span>
+              <span>✓ سرعت بالا</span>
               <span>✓ پشتیبانی 24/7</span>
             </div>
           </motion.div>
