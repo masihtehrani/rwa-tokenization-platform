@@ -46,7 +46,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-6 rtl:space-x-reverse">
+          <nav className="hidden lg:flex items-center space-x-8 rtl:space-x-reverse">
             {navigation.map((item) => (
               <div key={item.name} className="relative group">
                 <Link
