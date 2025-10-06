@@ -30,7 +30,7 @@ export default function HeroSection() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-              با استفاده از <Link href="/technology" className="text-yellow-400 hover:text-yellow-300 underline">فناوری بلاکچین</Link> و <Link href="/technology" className="text-yellow-400 hover:text-yellow-300 underline">قراردادهای هوشمند</Link>، هر دارایی فیزیکی را به توکن دیجیتال تبدیل کنید
+              با استفاده از فناوری بلاکچین و قراردادهای هوشمند، هر دارایی فیزیکی را به توکن دیجیتال تبدیل کنید
               <span className="block text-yellow-400 font-semibold mt-2">املاک و مستغلات • فلزات و معادن • محصولات کشاورزی • خودرو و ماشین‌آلات • اوراق بهادار</span>
             </p>
           </motion.div>
