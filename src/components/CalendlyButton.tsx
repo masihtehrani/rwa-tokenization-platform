@@ -5,7 +5,7 @@ import { Clock } from 'lucide-react'
 interface CalendlyButtonProps {
   text?: string
   className?: string
-  variant?: 'primary' | 'secondary' | 'outline'
+  variant?: 'primary' | 'secondary' | 'outline' | 'link'
   size?: 'sm' | 'md' | 'lg'
 }
 
@@ -33,7 +33,8 @@ export default function CalendlyButton({
   const variantClasses = {
     primary: 'bg-indigo-600 text-white hover:bg-indigo-700',
     secondary: 'bg-white text-indigo-600 hover:bg-gray-100',
-    outline: 'border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white'
+    outline: 'border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white',
+    link: 'text-gray-400 hover:text-white transition-colors duration-300 bg-transparent hover:bg-transparent'
   };
   
   const sizeClasses = {
@@ -42,10 +43,18 @@ export default function CalendlyButton({
     lg: 'px-8 py-4 text-lg rounded-2xl'
   };
 
+  // Override size classes for link variant
+  const getSizeClasses = () => {
+    if (variant === 'link') {
+      return 'p-0 text-sm';
+    }
+    return sizeClasses[size];
+  };
+
   return (
     <button
       onClick={openCalendly}
-      className={`${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`}
+      className={`${baseClasses} ${variantClasses[variant]} ${getSizeClasses()} ${className}`}
     >
       <Clock className="w-5 h-5 ml-2" />
       {text}
