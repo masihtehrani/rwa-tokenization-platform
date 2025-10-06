@@ -24,7 +24,7 @@ export default function HeroSection() {
             className="mb-8"
           >
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-              تبدیل دارایی‌های واقعی به
+              تبدیل دارایی‌های فیزیکی به
               <span className="block bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
                 توکن‌های دیجیتال قابل‌معامله
               </span>

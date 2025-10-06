@@ -41,7 +41,7 @@ export default function Header() {
             </div>
             <div className="hidden sm:block">
               <div className="text-xl font-bold text-gray-900">توکنایز</div>
-              <div className="text-sm text-gray-600">دارایی‌های واقعی</div>
+              <div className="text-sm text-gray-600">دارایی‌های فیزیکی</div>
             </div>
           </Link>
 
