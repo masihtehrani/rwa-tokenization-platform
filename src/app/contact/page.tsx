@@ -96,6 +96,18 @@ export default function ContactPage() {
               >
                 تلگرام
               </a>
+              <button 
+                onClick={() => {
+                  if (typeof window !== 'undefined' && window.Calendly) {
+                    window.Calendly.initPopupWidget({
+                      url: 'https://calendly.com/mahmud-tehrani/30min-1'
+                    });
+                  }
+                }}
+                className="bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-700 transition-all duration-300"
+              >
+                تنظیم وقت ملاقات
+              </button>
             </div>
           </div>
         </div>
@@ -219,6 +231,79 @@ export default function ContactPage() {
                 <p className="text-blue-800 text-sm text-center">
                   <strong>نکته:</strong> برای مسائل فوری می‌توانید از طریق تلگرام یا واتس‌اپ با ما تماس بگیرید
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Schedule Meeting Section */}
+      <section className="py-20 bg-gradient-to-r from-indigo-600 to-purple-600">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-white mb-6">
+              تنظیم وقت ملاقات آنلاین
+            </h2>
+            <p className="text-xl text-indigo-100 max-w-3xl mx-auto">
+              برای مشاوره تخصصی و راهنمایی کامل در مورد توکنایز دارایی‌های واقعی، وقت ملاقات آنلاین تنظیم کنید
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-2xl p-8 shadow-2xl">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                    چرا وقت ملاقات آنلاین؟
+                  </h3>
+                  <ul className="space-y-3 text-gray-600">
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-green-500 ml-2 mt-1 flex-shrink-0" />
+                      <span>مشاوره تخصصی و شخصی‌سازی شده</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-green-500 ml-2 mt-1 flex-shrink-0" />
+                      <span>بررسی دقیق پروژه و ارائه راهکار</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-green-500 ml-2 mt-1 flex-shrink-0" />
+                      <span>پاسخ به سوالات فنی و حقوقی</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="w-5 h-5 text-green-500 ml-2 mt-1 flex-shrink-0" />
+                      <span>برآورد دقیق هزینه و زمان</span>
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="text-center">
+                  <div className="bg-indigo-50 rounded-xl p-6 mb-6">
+                    <Clock className="w-12 h-12 text-indigo-600 mx-auto mb-4" />
+                    <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                      مدت زمان: 30 دقیقه
+                    </h4>
+                    <p className="text-gray-600">
+                      مشاوره رایگان و بدون تعهد
+                    </p>
+                  </div>
+                  
+                  <button 
+                    onClick={() => {
+                      if (typeof window !== 'undefined' && window.Calendly) {
+                        window.Calendly.initPopupWidget({
+                          url: 'https://calendly.com/mahmud-tehrani/30min-1'
+                        });
+                      }
+                    }}
+                    className="w-full bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl"
+                  >
+                    تنظیم وقت ملاقات
+                  </button>
+                  
+                  <p className="text-sm text-gray-500 mt-4">
+                    یا از دکمه شناور پایین صفحه استفاده کنید
+                  </p>
+                </div>
               </div>
             </div>
           </div>

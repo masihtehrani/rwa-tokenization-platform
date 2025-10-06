@@ -113,6 +113,9 @@ export default function RootLayout({
         <link rel="icon" href="/icons/icon-192x192.png" sizes="192x192" type="image/png" />
         <link rel="shortcut icon" href="/favicon-32x32.png" />
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        {/* Calendly Widget */}
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -122,6 +125,22 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        {/* Calendly Badge Widget */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.onload = function() { 
+                Calendly.initBadgeWidget({ 
+                  url: 'https://calendly.com/mahmud-tehrani/30min-1', 
+                  text: 'زمان ملاقات آنلاین', 
+                  color: '#3b82f6', 
+                  textColor: '#ffffff', 
+                  branding: true 
+                }); 
+              }
+            `,
+          }}
+        />
       </body>
     </html>
   );
