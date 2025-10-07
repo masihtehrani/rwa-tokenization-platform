@@ -6,30 +6,30 @@ import { TrendingUp, Building2, Coins, Users } from 'lucide-react'
 const stats = [
   {
     icon: Coins,
-    number: '$2.5M',
+    number: '$500K+',
     label: 'دارایی توکنایزشده',
     description: 'ارزش کل دارایی‌های توکنایز شده',
     color: 'from-yellow-500 to-orange-500'
   },
   {
     icon: Building2,
-    number: '47',
-    label: 'تعداد دارایی‌ها',
-    description: 'دارایی‌های مختلف توکنایز شده',
+    number: '12+',
+    label: 'پروژه‌های فعال',
+    description: 'پروژه‌های مختلف در حال اجرا',
     color: 'from-blue-500 to-cyan-500'
   },
   {
     icon: TrendingUp,
-    number: '18.5%',
-    label: 'میانگین بازده سالانه',
+    number: '15-25%',
+    label: 'بازدهی پیش‌بینی شده',
     description: 'بازدهی متوسط سرمایه‌گذاری‌ها',
     color: 'from-green-500 to-emerald-500'
   },
   {
     icon: Users,
-    number: '1,200+',
-    label: 'سرمایه‌گذاران فعال',
-    description: 'تعداد کاربران فعال پلتفرم',
+    number: '150+',
+    label: 'مشتریان راضی',
+    description: 'تعداد مشتریان فعال پلتفرم',
     color: 'from-purple-500 to-pink-500'
   }
 ]
