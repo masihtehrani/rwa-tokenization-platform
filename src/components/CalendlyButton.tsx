@@ -2,6 +2,19 @@
 
 import { Clock } from 'lucide-react'
 
+// Extend Window interface to include Calendly
+declare global {
+  interface Window {
+    Calendly?: {
+      initPopupWidget: (options: {
+        url: string;
+        prefill: Record<string, unknown>;
+        utm: Record<string, unknown>;
+      }) => void;
+    };
+  }
+}
+
 interface CalendlyButtonProps {
   text?: string
   className?: string
