@@ -8,14 +8,14 @@ const stats = [
     icon: Coins,
     number: '4',
     label: 'توکن‌های فعال',
-    description: 'توکن‌های فعال و در حال معامله در بازار',
+    description: 'توکن‌های در حال معامله و عملکرد در بازار جهانی',
     color: 'from-yellow-500 to-orange-500'
   },
   {
     icon: Building2,
     number: '100%',
     label: 'نرخ موفقیت',
-    description: 'تمام پروژه‌ها با موفقیت کامل انجام شده',
+    description: 'تمام پروژه‌ها با موفقیت کامل و بدون خطا انجام شده',
     color: 'from-blue-500 to-cyan-500'
   },
   {
