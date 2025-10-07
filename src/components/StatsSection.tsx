@@ -6,9 +6,9 @@ import { TrendingUp, Building2, Coins, Users } from 'lucide-react'
 const stats = [
   {
     icon: Coins,
-    number: '4',
-    label: 'پروژه‌های موفق',
-    description: 'پروژه‌های با موفقیت کامل و بدون خطا انجام شده',
+    number: '2023',
+    label: 'سال تاسیس',
+    description: 'شروع فعالیت در حوزه توکنایز دارایی‌های واقعی',
     color: 'from-yellow-500 to-orange-500'
   },
   {
@@ -21,15 +21,15 @@ const stats = [
   {
     icon: TrendingUp,
     number: '24/7',
-    label: 'معامله مداوم',
-    description: 'معامله 24 ساعته بدون توقف در تمام روزهای هفته',
+    label: 'پشتیبانی',
+    description: 'پشتیبانی 24 ساعته برای تمام مشتریان',
     color: 'from-green-500 to-emerald-500'
   },
   {
     icon: Users,
     number: '0',
-    label: 'خطای فنی',
-    description: 'هیچ خطای فنی یا خرابی در سیستم گزارش نشده',
+    label: 'تاخیر پروژه',
+    description: 'هیچ پروژه‌ای با تاخیر تحویل داده نشده',
     color: 'from-purple-500 to-pink-500'
   }
 ]
