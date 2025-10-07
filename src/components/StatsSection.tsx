@@ -7,29 +7,29 @@ const stats = [
   {
     icon: Coins,
     number: '4',
-    label: 'توکن‌های موفق',
-    description: 'توکن‌های با موفقیت ایجاد شده',
+    label: 'توکن‌های فعال',
+    description: 'توکن‌های در حال معامله و عملکرد',
     color: 'from-yellow-500 to-orange-500'
   },
   {
     icon: Building2,
-    number: '1',
-    label: 'مشتری راضی',
-    description: 'مشتری فعال و راضی از خدمات',
+    number: '100%',
+    label: 'نرخ موفقیت',
+    description: 'تمام پروژه‌ها بدون خطا انجام شده',
     color: 'from-blue-500 to-cyan-500'
   },
   {
     icon: TrendingUp,
-    number: '100%',
-    label: 'نرخ موفقیت',
-    description: 'تمام پروژه‌ها با موفقیت انجام شده',
+    number: '24/7',
+    label: 'معامله مداوم',
+    description: 'توکن‌ها در تمام ساعات قابل معامله',
     color: 'from-green-500 to-emerald-500'
   },
   {
     icon: Users,
-    number: '24/7',
-    label: 'پشتیبانی',
-    description: 'پشتیبانی تمام‌وقت برای مشتریان',
+    number: '0',
+    label: 'شکایت مشتری',
+    description: 'هیچ شکایتی از کیفیت خدمات دریافت نشده',
     color: 'from-purple-500 to-pink-500'
   }
 ]
