@@ -7,8 +7,8 @@ const stats = [
   {
     icon: Coins,
     number: '4',
-    label: 'توکن‌های فعال',
-    description: 'توکن‌های در حال معامله و عملکرد در بازار جهانی',
+    label: 'پروژه‌های موفق',
+    description: 'پروژه‌های با موفقیت کامل و بدون خطا انجام شده',
     color: 'from-yellow-500 to-orange-500'
   },
   {
@@ -28,8 +28,8 @@ const stats = [
   {
     icon: Users,
     number: '0',
-    label: 'شکایت مشتری',
-    description: 'رضایت 100% مشتریان از کیفیت خدمات ارائه شده',
+    label: 'خطای فنی',
+    description: 'هیچ خطای فنی یا خرابی در سیستم گزارش نشده',
     color: 'from-purple-500 to-pink-500'
   }
 ]
