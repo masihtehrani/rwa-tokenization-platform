@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://rwa-labs.ir/</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,42 +11,42 @@
   <!-- Main Pages -->
   <url>
     <loc>https://rwa-labs.ir/services</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://rwa-labs.ir/about</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://rwa-labs.ir/contact</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://rwa-labs.ir/portfolio</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://rwa-labs.ir/technology</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://rwa-labs.ir/blog</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -54,42 +54,42 @@
   <!-- Service Pages -->
   <url>
     <loc>https://rwa-labs.ir/services/real-estate</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://rwa-labs.ir/services/mining-metals</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://rwa-labs.ir/services/agriculture</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://rwa-labs.ir/services/vehicles</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://rwa-labs.ir/services/digital-sukuk</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://rwa-labs.ir/services/rwa-wallet</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -97,7 +97,7 @@
   <!-- Blog Articles -->
   <url>
     <loc>https://rwa-labs.ir/blog/what-is-rwa-tokenization</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-15T10:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

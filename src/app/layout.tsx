@@ -74,7 +74,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "RWA Labs",
-    "description": "پلتفرم تخصصی توکنایز دارایی‌های فیزیکی با استفاده از فناوری بلاکچین",
+    "description": "توکنایز دارایی‌های واقعی در بلاکچین - تبدیل املاک، طلا، زعفران، پسته و دارایی‌های فیزیکی به توکن دیجیتال",
     "url": "https://rwa-labs.ir",
     "logo": "https://rwa-labs.ir/images/rwa-labs-logo.png",
     "contactPoint": {
