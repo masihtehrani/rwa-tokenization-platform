@@ -8,28 +8,28 @@ const stats = [
     icon: Coins,
     number: '4',
     label: 'توکن‌های فعال',
-    description: 'توکن‌های در حال معامله و عملکرد',
+    description: 'توکن‌های فعال و در حال معامله در بازار',
     color: 'from-yellow-500 to-orange-500'
   },
   {
     icon: Building2,
     number: '100%',
     label: 'نرخ موفقیت',
-    description: 'تمام پروژه‌ها بدون خطا انجام شده',
+    description: 'تمام پروژه‌ها با موفقیت کامل انجام شده',
     color: 'from-blue-500 to-cyan-500'
   },
   {
     icon: TrendingUp,
     number: '24/7',
     label: 'معامله مداوم',
-    description: 'توکن‌ها در تمام ساعات قابل معامله',
+    description: 'معامله 24 ساعته بدون توقف در تمام روزهای هفته',
     color: 'from-green-500 to-emerald-500'
   },
   {
     icon: Users,
     number: '0',
     label: 'شکایت مشتری',
-    description: 'هیچ شکایتی از کیفیت خدمات دریافت نشده',
+    description: 'رضایت 100% مشتریان از کیفیت خدمات ارائه شده',
     color: 'from-purple-500 to-pink-500'
   }
 ]

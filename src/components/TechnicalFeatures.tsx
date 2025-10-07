@@ -50,7 +50,7 @@ const features = [
 
 export default function TechnicalFeatures() {
   return (
-    <section className="py-20 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50">
+    <section className="py-20 bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
