@@ -41,8 +41,8 @@ export default function Header() {
               <span className="text-white font-bold text-lg">RWA</span>
             </div>
             <div className="hidden sm:block">
-              <div className="text-xl font-bold text-gray-900">توکنایز</div>
-              <div className="text-sm text-gray-600">دارایی‌های فیزیکی</div>
+              <div className="text-xl font-bold text-gray-900">توکنایز دارایی‌های واقعی</div>
+              <div className="text-sm text-gray-600">در بلاکچین</div>
             </div>
           </Link>
 
