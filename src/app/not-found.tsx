@@ -86,8 +86,8 @@ export default function NotFound() {
             <a href="mailto:info@rwa-assets.ir" className="text-yellow-400 hover:text-yellow-300">
               ✉️ info@rwa-assets.ir
             </a>
-            <a href="https://t.me/rwatoken_support" className="text-yellow-400 hover:text-yellow-300">
-              💬 @rwatoken_support
+            <a href="https://t.me/rwa_labs" className="text-yellow-400 hover:text-yellow-300">
+              💬 @rwa_labs
             </a>
           </div>
         </div>

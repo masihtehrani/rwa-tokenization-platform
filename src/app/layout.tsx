@@ -40,8 +40,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@rwatoken",
-    creator: "@rwatoken",
+    site: "@rwa_labs",
+    creator: "@rwa_labs",
     title: "RWA Labs - پلتفرم تخصصی توکنایز دارایی‌های واقعی",
     description: "پلتفرم توکنایز دارایی‌های واقعی: املاک، طلا، زعفران، پسته، صکوک دیجیتال",
     images: {
@@ -84,7 +84,7 @@ export default function RootLayout({
       "availableLanguage": ["Persian", "English"]
     },
     "sameAs": [
-      "https://t.me/rwatoken_support",
+      "https://t.me/rwa_labs",
       "https://wa.me/989123456789"
     ],
     "service": {
